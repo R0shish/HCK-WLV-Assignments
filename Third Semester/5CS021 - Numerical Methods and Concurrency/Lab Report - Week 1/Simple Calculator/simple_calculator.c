@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int main()
 {
     float first_number, second_number, sum;
     char operator;
-    bool incorrect_input = true;
+    int incorrect_input = 1;
 
     printf("Enter the first number: ");
     scanf("%f", &first_number);
@@ -15,7 +14,7 @@ int main()
 
     while (incorrect_input)
     {
-        incorrect_input = false;
+        incorrect_input = 0;
 
         printf("Enter the operator (+, -, *, /, %%): ");
         scanf("%s", &operator);
@@ -40,7 +39,7 @@ int main()
             break;
 
         default:
-            incorrect_input = true;
+            incorrect_input = 1;
             printf("Wrong input. Please enter a valid operator and try again!\n");
             break;
         }

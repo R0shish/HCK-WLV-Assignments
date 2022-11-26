@@ -10,7 +10,7 @@ int main()
     int num = 1;
     printf("Enter the number: ");
     scanf("%d", &n);
-    for (int i = 0; num < n; i++)
+    for (int i = 0; num <= n; i++)
     {
         printf("%d ", num);
         num += i + 2;
