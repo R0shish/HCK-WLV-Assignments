@@ -16,6 +16,8 @@ public class Pkg1 {
     void display() {
         // private variable only accessible in the class.
         System.out.println(author);
+        // default access modifier -> only accessible in the current package
+        System.out.println(name);
     }
 }
 

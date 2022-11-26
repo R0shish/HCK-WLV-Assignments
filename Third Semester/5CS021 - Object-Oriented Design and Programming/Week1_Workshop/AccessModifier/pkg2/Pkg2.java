@@ -6,7 +6,7 @@ import Week1_Workshop.AccessModifier.pkg1.Pkg1;
 public class Pkg2 {
     void display() {
         Pkg1 pkg1 = new Pkg1("Package 1", "First Package", "Roshish", "2.0.0");
-        // default access modifier -> only accessible in the current package
+        // default access modifier -> only accessible in the package where declared
         // not accessible from other packages
         // System.out.println(pkg1.name);
 
