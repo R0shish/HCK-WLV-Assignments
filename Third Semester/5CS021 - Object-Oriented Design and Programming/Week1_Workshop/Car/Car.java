@@ -1,3 +1,5 @@
+package Week1_Workshop.Car;
+
 class Car {
     String brand;
 

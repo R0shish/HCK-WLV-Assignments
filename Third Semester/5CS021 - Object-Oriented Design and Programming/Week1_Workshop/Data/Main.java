@@ -1,3 +1,5 @@
+package Week1_Workshop.Data;
+
 class Data {
     // private variable
     private String name;

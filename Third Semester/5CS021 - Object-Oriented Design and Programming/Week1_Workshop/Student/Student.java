@@ -1,3 +1,5 @@
+package Week1_Workshop.Student;
+
 class Student {
     private String name;
     private int roll_no;
