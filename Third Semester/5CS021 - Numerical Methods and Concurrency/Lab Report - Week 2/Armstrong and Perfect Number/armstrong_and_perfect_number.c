@@ -10,9 +10,7 @@ int check_perfect_number(int num)
             result += i;
         }
     }
-    if (result == num)
-        return 1;
-    return 0;
+    return (result == num);
 }
 
 int check_armstrong_number(int num)
@@ -26,9 +24,7 @@ int check_armstrong_number(int num)
         result += (digit * digit * digit);
         temp /= 10;
     }
-    if (num == result)
-        return 1;
-    return 0;
+    return (num == result);
 }
 
 int main()

@@ -1,23 +1,24 @@
 #include <stdio.h>
+#include <math.h>
 
 int velocityCalc(int v, int u, int a, int t)
 {
-    if (v == 0)
+    if (isnan(v) || v == 0)
     {
         v = u + a * t;
         return v;
     }
-    else if (u == 0)
+    else if (isnan(u) || u == 0)
     {
         u = v - a * t;
         return u;
     }
-    else if (a == 0)
+    else if (isnan(a) || a == 0)
     {
         a = (v - u) / t;
         return a;
     }
-    else if (t == 0)
+    else if (isnan(t) || t == 0)
     {
         t = (v - u) / a;
         return t;
@@ -30,16 +31,16 @@ int velocityCalc(int v, int u, int a, int t)
 
 int main()
 {
-    int v, u, a, t;
+    float v, u, a, t;
     printf("Enter 0 for the unknown value\n");
     printf("Enter the value of v: ");
-    scanf("%d", &v);
+    scanf("%f", &v);
     printf("Enter the value of u: ");
-    scanf("%d", &u);
+    scanf("%f", &u);
     printf("Enter the value of a: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("Enter the value of t: ");
-    scanf("%d", &t);
+    scanf("%f", &t);
 
     printf("The value of unknown variable is %d.\n", velocityCalc(v, u, a, t));
     return 0;

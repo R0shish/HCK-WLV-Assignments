@@ -9,6 +9,7 @@ void equation(double a, double b, double c, double d,
 
     printf("The point where the two lines cross each other is (%g, %g)", x, y);
 }
+
 int main()
 {
     equation(10, 5, 60, 2, 15, 40);
