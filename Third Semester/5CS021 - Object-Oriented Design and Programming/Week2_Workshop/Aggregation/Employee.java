@@ -17,16 +17,14 @@ public class Employee {
 
     public static void main(String[] args) {
         // Employee 1
-        Address address1 = new Address("Rudramati Marg", "Kathmandu", "Nepal", "44600");
         Employee employee1 = new Employee(
-                1, "Roshish", address1);
+                1, "Roshish", new Address("Rudramati Marg", "Kathmandu", "Nepal", "44600"));
 
         employee1.display();
 
         // Employee 2
-        Address address2 = new Address("Chabahil", "Kathmandu", "Nepal", "44600");
         Employee employee2 = new Employee(
-                2, "Sujal", address2);
+                2, "Sujal", new Address("Chabahil", "Kathmandu", "Nepal", "44600"));
 
         employee2.display();
 
