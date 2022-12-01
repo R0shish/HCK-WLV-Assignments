@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void equation(double a, double b, double c, double d,
-              double e, double f)
+void equations(double a, double b, double c, double d,
+               double e, double f)
 {
     double x, y;
     x = (f * b - e * c) / (b * d - a * e);
@@ -12,6 +12,6 @@ void equation(double a, double b, double c, double d,
 
 int main()
 {
-    equation(10, 5, 60, 2, 15, 40);
+    equations(10, 5, 60, 2, 15, 40);
     return 0;
 }
