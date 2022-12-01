@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <string.h>
 
 char *lowercase(char *string)
 {
-    for (int i = 0; i < strlen(string); i++)
+    for (int i = 0; string[i] != '\0'; i++)
     {
         if (string[i] >= 65 && string[i] <= 90)
         {
