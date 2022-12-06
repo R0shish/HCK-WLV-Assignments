@@ -7,5 +7,4 @@ public class Payroll_Reciever {
         payroll.setHoursWorked(2);
         System.out.println(payroll.getGrossPay());
     }
-
 }
