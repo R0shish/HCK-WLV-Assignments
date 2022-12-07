@@ -1,4 +1,4 @@
-package Week3_Workshop;
+package Week3_Workshop.Encapsulation_Inheritance;
 
 public class Animal {
     private String name;
@@ -37,44 +37,44 @@ public class Animal {
 
 }
 
-class Dog extends Animal {
-    public Dog(String name, String age, String weight) {
+class Bear extends Animal {
+    public Bear(String name, String age, String weight) {
         super(name, age, weight);
     }
 
-    void bark() {
-        System.out.println(this.getName() + " is barking...");
+    void hibernate() {
+        System.out.println(this.getName() + " is hibernating...");
     }
 
     void displayInfo() {
-        System.out.println(this.getName() + " the dog is " + this.getAge() + " years old.");
+        System.out.println(this.getName() + " the bear is " + this.getAge() + " years old.");
     }
 }
 
-class Fish extends Animal {
-    public Fish(String name, String age, String weight) {
+class Penguin extends Animal {
+    public Penguin(String name, String age, String weight) {
         super(name, age, weight);
     }
 
-    void blopblop() {
-        System.out.println(this.getName() + " is blopblopping...");
+    void flipflop() {
+        System.out.println(this.getName() + " is flipflopping...");
     }
 
     void displayInfo() {
-        System.out.println(this.getName() + " the fish is " + this.getAge() + " years old.");
+        System.out.println(this.getName() + " the penguin is " + this.getAge() + " years old.");
     }
 }
 
 class Main {
     public static void main(String[] args) {
-        Dog shiba = new Dog("Shiba", "5", "20");
-        shiba.displayInfo();
-        shiba.eat();
-        shiba.bark();
+        Bear grizzly = new Bear("Grizzly", "15", "120");
+        grizzly.displayInfo();
+        grizzly.eat();
+        grizzly.hibernate();
 
-        Fish rio = new Fish("Rio", "1", "2");
-        rio.displayInfo();
-        rio.sleep();
-        rio.blopblop();
+        Penguin kowalski = new Penguin("Kowalski", "3", "20");
+        kowalski.displayInfo();
+        kowalski.sleep();
+        kowalski.flipflop();
     }
 }
