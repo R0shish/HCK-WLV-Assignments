@@ -2,7 +2,7 @@
 
 int main()
 {
-    int arr[5] = {1, 2, 3, 4, 5};
+    int arr[] = {1, 2, 3, 4, 5};
     int num = 5, found = 0;
     int *p = &arr[0];
 
