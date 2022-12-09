@@ -14,18 +14,22 @@ public class Palindrome {
         return (result == number);
     }
 
+    // Easier but takes more time
+    // public static boolean isPalindrome(String string) {
+    // String reverse = "";
+    // for (int i = string.length() - 1; i >= 0; i--) {
+    // reverse += string.charAt(i);
+    // }
+    // return (reverse.equals(string));
+    // }
+
     public static boolean isPalindrome(String string) {
-        String result;
+        String reverse = "";
         int mid = string.length() / 2;
-        if (string.length() % 2 == 0) {
-            result = string.substring(0, mid);
-        } else {
-            result = string.substring(0, mid + 1);
-        }
         for (int i = mid - 1; i >= 0; i--) {
-            result += result.charAt(i);
+            reverse += string.substring(0, mid).charAt(i);
         }
-        return result.equals(string);
+        return reverse.equals(string.substring(mid, string.length()));
     }
 }
 
