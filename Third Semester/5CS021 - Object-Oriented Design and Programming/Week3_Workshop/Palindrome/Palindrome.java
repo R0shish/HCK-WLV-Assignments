@@ -29,7 +29,7 @@ public class Palindrome {
         for (int i = mid - 1; i >= 0; i--) {
             reverse += string.substring(0, mid).charAt(i);
         }
-        return reverse.equals(string.substring((string.length() % 2 == 0 ? mid : mid + 1), string.length()));
+        return reverse.equalsIgnoreCase(string.substring((string.length() % 2 == 0 ? mid : mid + 1), string.length()));
     }
 }
 
