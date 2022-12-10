@@ -34,7 +34,6 @@ public class Animal {
     public String getWeight() {
         return weight;
     }
-
 }
 
 class Bear extends Animal {

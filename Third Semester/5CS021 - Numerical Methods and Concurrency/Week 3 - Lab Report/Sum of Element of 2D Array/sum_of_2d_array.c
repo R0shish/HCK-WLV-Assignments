@@ -7,9 +7,9 @@ int main()
     int ROW_SIZE = 3;
     int COL_SIZE = 3;
 
-    for (int col = 0; col < COL_SIZE; col++)
+    for (int row = 0; row < ROW_SIZE; row++)
     {
-        for (int row = 0; row < ROW_SIZE; row++)
+        for (int col = 0; col < COL_SIZE; col++)
         {
             printf("%d ", arr_1[row][col] + arr_2[row][col]);
         }
