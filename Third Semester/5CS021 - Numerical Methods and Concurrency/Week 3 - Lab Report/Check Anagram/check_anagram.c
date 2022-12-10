@@ -32,8 +32,14 @@ int compare_string(char first_string[], char second_string[])
 
 int main()
 {
-    char first_string[6] = "swap";
-    char second_string[6] = "wasp";
+    char first_string[20];
+    char second_string[20];
+
+    printf("Enter first word: ");
+    scanf("%s", first_string);
+    printf("Enter second word: ");
+    scanf("%s", second_string);
+
     char *sorted_first = sort_string(first_string);
     char *sorted_second = sort_string(second_string);
 

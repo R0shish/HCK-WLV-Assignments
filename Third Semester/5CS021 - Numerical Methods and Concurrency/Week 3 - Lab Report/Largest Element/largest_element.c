@@ -2,9 +2,19 @@
 
 int main()
 {
-    int arr[] = {2, 5, 3, 10, 9, 6};
+    int arr_size;
+    printf("Enter the number of elements you want to enter: ");
+    scanf("%d", &arr_size);
+    int arr[arr_size];
+
+    for (int i = 0; i < arr_size; i++)
+    {
+        printf("Enter element %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+
     int max = arr[0];
-    for (int i = 1; i < sizeof(arr) / sizeof(int); i++)
+    for (int i = 1; i < arr_size; i++)
     {
         if (arr[i] > max)
         {

@@ -2,8 +2,17 @@
 
 int main()
 {
-    int arr[] = {3, 5, 6, 7, 10, 15};
-    int arr_size = sizeof(arr) / sizeof(int);
+    int arr_size;
+    printf("Enter the number of elements you want to enter: ");
+    scanf("%d", &arr_size);
+    int arr[arr_size];
+
+    for (int i = 0; i < arr_size; i++)
+    {
+        printf("Enter element %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+
     int sum = 0;
     for (int i = 0; i < arr_size; i++)
     {
