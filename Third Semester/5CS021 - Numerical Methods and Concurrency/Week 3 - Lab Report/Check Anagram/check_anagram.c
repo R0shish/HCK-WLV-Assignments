@@ -20,15 +20,15 @@ char *sort_string(char string[])
     return string;
 }
 
-int compare_string(char first_string[], char second_string[])
-{
-    for (int i = 0; i < strlen(first_string); i++)
-    {
-        if (first_string[i] != second_string[i])
-            return 0;
-    }
-    return 1;
-}
+// int compare_string(char first_string[], char second_string[])
+// {
+//     for (int i = 0; i < strlen(first_string); i++)
+//     {
+//         if (first_string[i] != second_string[i])
+//             return 0;
+//     }
+//     return 1;
+// }
 
 int main()
 {
@@ -43,7 +43,7 @@ int main()
     char *sorted_first = sort_string(first_string);
     char *sorted_second = sort_string(second_string);
 
-    if (compare_string(sorted_first, sorted_second))
+    if (strcmp(sorted_first, sorted_second) == 0)
     {
         printf("The words are anagrams.\n");
     }
