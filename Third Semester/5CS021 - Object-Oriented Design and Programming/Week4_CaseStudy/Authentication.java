@@ -41,7 +41,8 @@ class Signup extends Authentication {
         try {
 
             System.out.println("Please enter your full name: ");
-            String fullName = scanner.next();
+            scanner.nextLine();
+            String fullName = scanner.nextLine();
             user.setFullName(fullName);
 
             System.out.println("Please enter your mobile number: ");
