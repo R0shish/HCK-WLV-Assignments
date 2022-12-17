@@ -3,13 +3,9 @@
 
 int main()
 {
-    int *int_ptr;
-    char *char_ptr;
-    float *float_ptr;
-
-    int_ptr = (int *)malloc(sizeof(int));
-    char_ptr = (char *)malloc(sizeof(char));
-    float_ptr = (float *)malloc(sizeof(float));
+    int *int_ptr = (int *)malloc(sizeof(int));
+    char *char_ptr = (char *)malloc(sizeof(char));
+    float *float_ptr = (float *)malloc(sizeof(float));
 
     printf("Enter an integer: ");
     scanf("%d", int_ptr);
