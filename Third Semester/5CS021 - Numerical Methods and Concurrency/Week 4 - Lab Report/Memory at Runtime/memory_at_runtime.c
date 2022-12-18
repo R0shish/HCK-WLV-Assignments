@@ -19,6 +19,7 @@ int main()
     scanf("%f", float_ptr);
 
     printf("%d, %c, %g\n", *int_ptr, *char_ptr, *float_ptr);
+    printf("%lu bytes, %lu bytes, %lu bytes\n", sizeof(*int_ptr), sizeof(*char_ptr), sizeof(*float_ptr));
 
     free(int_ptr);
     free(char_ptr);

@@ -7,7 +7,7 @@ int main()
     printf("How many elements do you want to enter? ");
     scanf("%d", &arr_size);
 
-    int *arr = malloc(arr_size * sizeof(int));
+    int *arr = (int *)malloc(arr_size * sizeof(int));
 
     for (int i = 0; i < arr_size; i++)
     {
@@ -26,7 +26,7 @@ int main()
     printf("How many elements do you want to add? ");
     scanf("%d", &add_size);
 
-    arr = realloc(arr, (arr_size + add_size) * sizeof(int));
+    arr = (int *)realloc(arr, (arr_size + add_size) * sizeof(int));
 
     for (int i = arr_size; i < arr_size + add_size; i++)
     {

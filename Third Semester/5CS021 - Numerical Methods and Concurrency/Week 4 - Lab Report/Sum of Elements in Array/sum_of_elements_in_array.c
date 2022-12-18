@@ -8,6 +8,7 @@ int main()
     for (int i = 0; i < sizeof(arr) / sizeof(int); i++, p++)
     {
         sum += *p;
+        printf("%d \n", p);
     }
     printf("%d\n", sum);
     return 0;
