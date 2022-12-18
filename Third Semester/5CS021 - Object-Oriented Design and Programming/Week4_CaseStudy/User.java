@@ -1,6 +1,9 @@
 package Week4_CaseStudy;
 
+import java.time.LocalDate;
 import java.time.Year;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -71,17 +74,26 @@ public class User {
     }
 
     public void setDateOfBirth(String dateOfBirth) {
-        final String regex = "\\d{2}/\\d{2}/\\d{4}";
+        DateTimeFormatter format1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter format2 = DateTimeFormatter.ofPattern("MM/dd/yyyy");
 
-        Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(dateOfBirth);
+        try {
+            LocalDate.parse(dateOfBirth, format1);
+        } catch (DateTimeParseException e) {
+            try {
+                LocalDate.parse(dateOfBirth, format2);
+            } catch (DateTimeParseException err) {
+                throw new InvalidInputException(
+                        "Please enter a valid date of birth. Input must be in format (DD/MM/YYYY) or (MM/DD/YYYY)");
+            }
+        }
 
         int year = Integer.parseInt(dateOfBirth.split("/")[2]);
         int currentYear = Integer.parseInt(Year.now().toString());
 
-        if (!matcher.matches() || (currentYear - year) < 21) {
+        if ((currentYear - year) < 21) {
             throw new InvalidInputException(
-                    "Please enter a valid date of birth. Input must be in format (DD/MM/YYYY) or (MM/DD/YYYY) and age must be atleast 21.");
+                    "Please enter a valid date of birth. Age must be atleast 21.");
         }
         this.dateOfBirth = dateOfBirth;
     }

@@ -37,36 +37,57 @@ class Signup extends Authentication {
     public static void signup(Scanner scanner) {
 
         User user = new User();
+        scanner.nextLine();
 
-        try {
-
-            System.out.println("Please enter your full name: ");
-            scanner.nextLine();
-            String fullName = scanner.nextLine();
-            user.setFullName(fullName);
-
-            System.out.println("Please enter your mobile number: ");
-            String mobileNumber = scanner.next();
-            user.setMobileNumber(mobileNumber);
-
-            System.out.println("Please enter your password: ");
-            String password = scanner.next();
-
-            System.out.println("Please confirm your password: ");
-            String confirmPassword = scanner.next();
-
-            user.setPassword(password, confirmPassword);
-
-            System.out.println("Please enter your date of birth (DD/MM/YYYY): ");
-            String dateOfBirth = scanner.next();
-            user.setDateOfBirth(dateOfBirth);
-
-        } catch (InvalidInputException e) {
-
-            System.out.println("\n" + e.getMessage() + "\nPlease start again.\n");
-            return;
-
+        while (true) {
+            try {
+                System.out.println("Please enter your full name: ");
+                String fullName = scanner.nextLine();
+                user.setFullName(fullName);
+                break;
+            } catch (InvalidInputException e) {
+                System.out.println("\n" + e.getMessage());
+            }
         }
+
+        while (true) {
+            try {
+
+                System.out.println("Please enter your mobile number: ");
+                String mobileNumber = scanner.next();
+                user.setMobileNumber(mobileNumber);
+                break;
+            } catch (InvalidInputException e) {
+                System.out.println("\n" + e.getMessage());
+            }
+        }
+
+        while (true) {
+            try {
+                System.out.println("Please enter your password: ");
+                String password = scanner.next();
+
+                System.out.println("Please confirm your password: ");
+                String confirmPassword = scanner.next();
+
+                user.setPassword(password, confirmPassword);
+                break;
+            } catch (InvalidInputException e) {
+                System.out.println("\n" + e.getMessage());
+            }
+        }
+
+        while (true) {
+            try {
+                System.out.println("Please enter your date of birth (DD/MM/YYYY): ");
+                String dateOfBirth = scanner.next();
+                user.setDateOfBirth(dateOfBirth);
+                break;
+            } catch (InvalidInputException e) {
+                System.out.println("\n" + e.getMessage());
+            }
+        }
+
         Authentication.addToUserData(user);
         System.out.println("\nUser registered successfully.");
     }
