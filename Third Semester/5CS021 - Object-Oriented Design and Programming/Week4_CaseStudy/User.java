@@ -88,13 +88,17 @@ public class User {
             }
         }
 
-        int year = Integer.parseInt(dateOfBirth.split("/")[2]);
-        int currentYear = Integer.parseInt(Year.now().toString());
-
-        if ((currentYear - year) < 21) {
+        if (getAge(dateOfBirth) < 21) {
             throw new InvalidInputException(
                     "Please enter a valid date of birth. Age must be atleast 21.");
         }
         this.dateOfBirth = dateOfBirth;
+    }
+
+    public int getAge(String dateOfBirth) {
+        int year = Integer.parseInt(dateOfBirth.split("/")[2]);
+        int currentYear = Integer.parseInt(Year.now().toString());
+
+        return (currentYear - year);
     }
 }
