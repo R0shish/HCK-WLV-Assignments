@@ -1,4 +1,4 @@
-package Week5_Tutorial.Exception_Handling;
+package Week5_Workshop.Exception_Handling;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
