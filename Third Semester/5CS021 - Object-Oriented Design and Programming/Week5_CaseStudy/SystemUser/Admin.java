@@ -1,6 +1,7 @@
 package Week5_CaseStudy.SystemUser;
 
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
 
 import Week5_CaseStudy.Main;
@@ -14,6 +15,7 @@ public class Admin extends SystemUser {
     public void login(Scanner scanner) {
         System.out.println("\nWelcome Admin!");
         while (true) {
+            Main.showDivider();
             System.out.println("""
 
                     What would you like to do?
@@ -39,10 +41,10 @@ public class Admin extends SystemUser {
                     addLandlord(scanner);
                     break;
                 case 2:
-                    updateLandlord();
+                    updateLandlord(scanner);
                     break;
                 case 3:
-                    deleteLandlord(null);
+                    deleteLandlord(scanner);
                     break;
                 case 4:
                     addTenant(null);
@@ -74,7 +76,12 @@ public class Admin extends SystemUser {
 
     // Landlord
     public void addLandlord(Scanner scanner) {
+        Main.showDivider();
+        scanner.nextLine();
         System.out.println("Please enter the following property details:");
+
+        System.out.println("Enter your name: ");
+        String name = scanner.nextLine();
 
         System.out.println("No of Rooms:");
         int numberOfRooms = scanner.nextInt();
@@ -91,17 +98,34 @@ public class Admin extends SystemUser {
         System.out.println("Enter your rental charge: ");
         String rentalCharge = scanner.next();
 
-        Landlord landlord = new Landlord(new RentalProperty(numberOfRooms, levelOfRoom, location, lengthOfStay),
+        Landlord landlord = new Landlord(name, new RentalProperty(numberOfRooms, levelOfRoom, location, lengthOfStay),
                 contactDetails, rentalCharge);
         Main.addLandlord(landlord);
     }
 
-    public void updateLandlord() {
-        showLandlords();
+    public void updateLandlord(Scanner scanner) {
+        if (showLandlords() == 404)
+            return;
+        System.out.println("\nEnter the number of the landlord you want to update: ");
+        int choice = scanner.nextInt();
+        scanner.nextLine();
+        Landlord landlord = Main.getLandlordData(role).get(choice - 1);
+        System.out.println("Enter your name: ");
+        landlord.setName(scanner.nextLine());
+        System.out.println("Enter your contact details: ");
+        landlord.setContactDetails(scanner.nextLine());
+        System.out.println("Enter your rental charge: ");
+        landlord.setRentalCharge(scanner.nextLine());
     }
 
-    public void deleteLandlord(String contactDetails) {
-        showLandlords();
+    public void deleteLandlord(Scanner scanner) {
+        if (showLandlords() == 404)
+            return;
+        System.out.println("\nEnter the number of the landlord you want to delete: ");
+        int choice = scanner.nextInt();
+        scanner.nextLine();
+        Main.getLandlordData(role).remove(choice - 1);
+        System.out.println("Landlord Deleted Successfully!");
     }
 
     // Tenants
@@ -115,14 +139,22 @@ public class Admin extends SystemUser {
     }
 
     // Generate Reports
-
     public RentalProperty generateReport() {
         return new RentalProperty(1, 1, "One", 1);
     }
 
-    // Show all landlords
-    public void showLandlords() {
-        System.out.println(Main.getLandlordData(role));
+    public int showLandlords() {
+        List<Landlord> landlords = Main.getLandlordData(role);
+        Main.showDivider();
+        if (landlords.size() == 0) {
+            System.out.println("No Landlords Found!");
+            return 404;
+        }
+        System.out.println("Landlord Details:");
+        for (int i = 0; i < landlords.size(); i++) {
+            System.out.println((i + 1) + ") " + landlords.get(i).getName());
+        }
+        return 0;
     }
 
 }

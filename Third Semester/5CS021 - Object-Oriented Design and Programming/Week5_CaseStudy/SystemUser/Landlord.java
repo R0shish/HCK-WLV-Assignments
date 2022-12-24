@@ -13,11 +13,13 @@ interface LandlordRights {
 }
 
 public class Landlord extends SystemUser implements LandlordRights {
+    private String name;
     private RentalProperty property;
     private String contactDetails;
     private String rentalCharge;
 
-    public Landlord(RentalProperty property, String contactDetails, String rentalCharge) {
+    public Landlord(String name, RentalProperty property, String contactDetails, String rentalCharge) {
+        this.name = name;
         this.property = property;
         this.contactDetails = contactDetails;
         this.rentalCharge = rentalCharge;
@@ -49,6 +51,21 @@ public class Landlord extends SystemUser implements LandlordRights {
     }
 
     // Getter and Setter
+
+    public static void displayLandlordDetails(Landlord landlord) {
+        System.out.println("Name: " + landlord.getName() + "\n");
+        RentalProperty.displayRentalPropertyDetails(landlord.getProperty());
+        System.out.println("\nContact Details: " + landlord.getContactDetails());
+        System.out.println("Rental Charge: " + landlord.getRentalCharge());
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public RentalProperty getProperty() {
         return property;

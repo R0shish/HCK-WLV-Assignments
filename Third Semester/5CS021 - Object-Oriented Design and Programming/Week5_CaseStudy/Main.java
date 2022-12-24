@@ -62,6 +62,10 @@ public class Main {
         throw new AccessForbiddenException("You do not have access to view landlord data.");
     }
 
+    public static void showDivider() {
+        System.out.println("--------------------");
+    }
+
     public static void addLandlord(Landlord landlord) {
         Main.landlordData.add(landlord);
     }

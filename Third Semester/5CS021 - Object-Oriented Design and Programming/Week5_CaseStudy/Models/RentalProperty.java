@@ -13,6 +13,14 @@ public class RentalProperty {
         this.lengthOfStay = lengthOfStay;
     }
 
+    public static void displayRentalPropertyDetails(RentalProperty rentalProperty) {
+        System.out.println("Rental Property Details:");
+        System.out.println("Number of Rooms: " + rentalProperty.getNumberOfRooms());
+        System.out.println("Level of Rooms: " + rentalProperty.getLevelOfRooms());
+        System.out.println("Location: " + rentalProperty.getLocation());
+        System.out.println("Length of Stay: " + rentalProperty.getLengthOfStay());
+    }
+
     public int getNumberOfRooms() {
         return numberOfRooms;
     }
