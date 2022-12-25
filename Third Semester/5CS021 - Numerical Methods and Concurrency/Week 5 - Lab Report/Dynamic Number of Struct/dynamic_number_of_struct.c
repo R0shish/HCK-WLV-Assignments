@@ -1,8 +1,3 @@
-// Create a structure named Employee having members name, salary and hours of
-// work per day. Now, write a program to dynamically create an ‘n’ number of
-// structures of type Employee. Pass this array of structure to a function that prints
-// the highest salary of the employee.
-
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -11,21 +11,6 @@ struct Employee
     int salary;
 };
 
-void take_input(struct Employee *employee_data)
-{
-    int i;
-    for (i = 0; i < MAX_SIZE; i++)
-    {
-        printf("Enter information about employee %d\n", i + 1);
-        printf("Enter name: ");
-        scanf("%s", employee_data[i].name);
-        printf("Enter post: ");
-        scanf("%s", employee_data[i].post);
-        printf("Enter salary: ");
-        scanf("%d", &employee_data[i].salary);
-    }
-}
-
 void display_info(struct Employee *employee_data, int *filtered_count)
 {
     int i;
@@ -63,7 +48,17 @@ struct Employee *filter(struct Employee employees[], int *filtered_count)
 int main()
 {
     struct Employee employees[MAX_SIZE];
-    take_input(employees);
+    int i;
+    for (i = 0; i < MAX_SIZE; i++)
+    {
+        printf("Enter information about employee %d\n", i + 1);
+        printf("Enter name: ");
+        scanf("%s", employees[i].name);
+        printf("Enter post: ");
+        scanf("%s", employees[i].post);
+        printf("Enter salary: ");
+        scanf("%d", &employees[i].salary);
+    }
     int filtered_count;
     struct Employee *filtered_employee = filter(employees, &filtered_count);
     display_info(filtered_employee, &filtered_count);
