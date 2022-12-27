@@ -47,7 +47,7 @@ public class Admin extends SystemUser {
                     deleteLandlord(scanner);
                     break;
                 case 4:
-                    addTenant(null);
+                    addTenant(scanner);
                     break;
                 case 5:
                     updateTenant(null);
@@ -78,11 +78,10 @@ public class Admin extends SystemUser {
     public void addLandlord(Scanner scanner) {
         Main.showDivider();
         scanner.nextLine();
-        System.out.println("Please enter the following property details:");
-
         System.out.println("Enter your name: ");
         String name = scanner.nextLine();
 
+        System.out.println("Please enter the following property details:");
         System.out.println("No of Rooms:");
         int numberOfRooms = scanner.nextInt();
         System.out.println("Level of Room:");
@@ -129,10 +128,25 @@ public class Admin extends SystemUser {
     }
 
     // Tenants
-    public void addTenant(Tenant tenant) {
+    public void addTenant(Scanner scanner) {
+        Main.showDivider();
+        scanner.nextLine();
+        while (true) {
+            System.out.println("Please choose a type of tenant\n1) Family\n2)Student: ");
+            int choice = scanner.nextInt();
+            if (choice == 1) {
+                break;
+            } else if (choice == 2) {
+                break;
+            } else {
+                System.out.println("Wrong Input!");
+            }
+        }
+
     }
 
     public void updateTenant(Tenant tenant) {
+
     }
 
     public void deleteTenant(String id) {
