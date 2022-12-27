@@ -1,0 +1,396 @@
+school,sex,age,address,famsize,Pstatus,Medu,Fedu,Mjob,Fjob,reason,guardian,traveltime,studytime,failures,schoolsup,famsup,paid,activities,nursery,higher,internet,romantic,famrel,freetime,goout,Dalc,Walc,health,absences,G1,G2,G3
+GP,F,18,U,GT3,A,higher education,higher education,at_home,teacher,course,mother,15 to 30 min.,2 to 5 hours,0,yes,no,no,no,yes,yes,no,no,very good,medium,high,very low,very low,good,6,5,6,6
+GP,F,17,U,GT3,T,primary education (4th grade),primary education (4th grade),at_home,other,course,father,<15 min.,2 to 5 hours,0,no,yes,no,no,no,yes,yes,no,excellent,medium,medium,very low,very low,good,4,5,5,6
+GP,F,15,U,LE3,T,primary education (4th grade),primary education (4th grade),at_home,other,other,mother,<15 min.,2 to 5 hours,3,yes,no,yes,no,yes,yes,yes,no,very good,medium,low,low,medium,good,10,7,8,10
+GP,F,15,U,GT3,T,higher education,5th to 9th grade,health,services,home,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,good,low,low,very low,very low,excellent,2,15,14,15
+GP,F,16,U,GT3,T,secondary education,secondary education,other,other,home,father,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,no,no,very good,medium,low,very low,low,excellent,4,6,10,10
+GP,M,16,U,LE3,T,higher education,secondary education,services,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,excellent,high,low,very low,low,excellent,10,15,15,15
+GP,M,16,U,LE3,T,5th to 9th grade,5th to 9th grade,other,other,home,mother,<15 min.,2 to 5 hours,0,no,no,no,no,yes,yes,yes,no,very good,high,high,very low,very low,good,0,12,12,11
+GP,F,17,U,GT3,A,higher education,higher education,other,teacher,home,mother,15 to 30 min.,2 to 5 hours,0,yes,yes,no,no,yes,yes,no,no,very good,very low,high,very low,very low,very bad,6,6,5,6
+GP,M,15,U,LE3,A,secondary education,5th to 9th grade,services,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,low,low,very low,very low,very bad,0,16,18,19
+GP,M,15,U,GT3,T,secondary education,higher education,other,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,excellent,very high,very low,very low,very low,excellent,0,14,15,15
+GP,F,15,U,GT3,T,higher education,higher education,teacher,health,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,good,medium,medium,very low,low,bad,0,10,8,9
+GP,F,15,U,GT3,T,5th to 9th grade,primary education (4th grade),services,other,reputation,father,30 min. to 1 hour,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,no,excellent,low,low,very low,very low,very good,4,10,12,12
+GP,M,15,U,LE3,T,higher education,higher education,health,services,course,father,<15 min.,<2 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,medium,medium,very low,medium,excellent,2,14,14,14
+GP,M,15,U,GT3,T,higher education,secondary education,teacher,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,excellent,high,medium,very low,low,good,2,10,10,11
+GP,M,15,U,GT3,A,5th to 9th grade,5th to 9th grade,other,other,home,other,<15 min.,5 to 10 hours,0,no,yes,no,no,yes,yes,yes,yes,very good,very high,low,very low,very low,good,0,14,16,16
+GP,F,16,U,GT3,T,higher education,higher education,health,other,home,mother,<15 min.,<2 hours,0,no,yes,no,no,yes,yes,yes,no,very good,high,high,very low,low,bad,4,14,14,14
+GP,F,16,U,GT3,T,higher education,higher education,services,services,reputation,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,good,low,medium,very low,low,bad,6,13,14,14
+GP,F,16,U,GT3,T,secondary education,secondary education,other,other,reputation,mother,30 min. to 1 hour,2 to 5 hours,0,yes,yes,no,yes,yes,yes,no,no,excellent,medium,low,very low,very low,very good,4,8,10,10
+GP,M,17,U,GT3,T,secondary education,5th to 9th grade,services,services,course,mother,<15 min.,<2 hours,3,no,yes,no,yes,yes,yes,yes,no,excellent,very high,very high,low,high,excellent,16,6,5,5
+GP,M,16,U,LE3,T,higher education,secondary education,health,other,home,father,<15 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,no,good,very low,medium,very low,medium,excellent,4,8,10,10
+GP,M,15,U,GT3,T,higher education,secondary education,teacher,other,reputation,mother,<15 min.,2 to 5 hours,0,no,no,no,no,yes,yes,yes,no,very good,high,very low,very low,very low,very bad,0,13,14,15
+GP,M,15,U,GT3,T,higher education,higher education,health,health,other,father,<15 min.,<2 hours,0,no,yes,yes,no,yes,yes,yes,no,excellent,high,low,very low,very low,excellent,0,12,15,15
+GP,M,16,U,LE3,T,higher education,5th to 9th grade,teacher,other,course,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,no,very good,very high,very low,very low,medium,excellent,2,15,15,16
+GP,M,16,U,LE3,T,5th to 9th grade,5th to 9th grade,other,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,excellent,high,high,low,high,excellent,0,13,13,12
+GP,F,15,R,GT3,T,5th to 9th grade,higher education,services,health,course,mother,<15 min.,5 to 10 hours,0,yes,yes,yes,yes,yes,yes,yes,no,very good,medium,low,very low,very low,excellent,2,10,9,8
+GP,F,16,U,GT3,T,5th to 9th grade,5th to 9th grade,services,services,home,mother,<15 min.,<2 hours,2,no,yes,yes,no,no,yes,yes,no,very bad,low,low,very low,medium,excellent,14,6,9,8
+GP,M,15,U,GT3,T,5th to 9th grade,5th to 9th grade,other,other,home,mother,<15 min.,<2 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,low,low,very low,low,excellent,2,12,12,11
+GP,M,15,U,GT3,T,higher education,5th to 9th grade,health,services,other,mother,<15 min.,<2 hours,0,no,no,yes,no,yes,yes,yes,no,bad,low,high,low,high,very bad,4,15,16,15
+GP,M,16,U,LE3,A,secondary education,higher education,services,other,home,mother,<15 min.,2 to 5 hours,0,yes,yes,no,yes,yes,yes,yes,no,excellent,medium,medium,very low,very low,excellent,4,11,11,11
+GP,M,16,U,GT3,T,higher education,higher education,teacher,teacher,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very good,high,very high,very high,very high,excellent,16,10,12,11
+GP,M,15,U,GT3,T,higher education,higher education,health,services,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,no,excellent,high,low,medium,high,excellent,0,9,11,12
+GP,M,15,U,GT3,T,higher education,higher education,services,services,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,very good,medium,very low,very low,very low,excellent,0,17,16,17
+GP,M,15,R,GT3,T,higher education,secondary education,teacher,at_home,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,yes,very good,very high,low,very low,very low,excellent,0,17,16,16
+GP,M,15,U,LE3,T,secondary education,secondary education,other,other,course,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,no,yes,yes,no,excellent,medium,low,very low,very low,bad,0,8,10,12
+GP,M,16,U,GT3,T,secondary education,5th to 9th grade,other,other,home,mother,<15 min.,<2 hours,0,no,yes,yes,no,no,yes,yes,no,excellent,high,medium,very low,very low,excellent,0,12,14,15
+GP,F,15,U,GT3,T,5th to 9th grade,secondary education,other,other,other,father,15 to 30 min.,<2 hours,0,no,yes,no,yes,yes,yes,no,no,good,very high,very low,very low,very low,excellent,0,8,7,6
+GP,M,15,U,LE3,T,higher education,secondary education,teacher,services,home,mother,<15 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,no,excellent,high,medium,very low,very low,very good,2,15,16,18
+GP,M,16,R,GT3,A,higher education,higher education,other,teacher,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,yes,bad,high,medium,very low,very low,excellent,7,15,16,15
+GP,F,15,R,GT3,T,secondary education,higher education,services,health,course,mother,<15 min.,5 to 10 hours,0,yes,yes,yes,yes,yes,yes,yes,no,very good,medium,low,very low,very low,excellent,2,12,12,11
+GP,F,15,R,GT3,T,5th to 9th grade,5th to 9th grade,at_home,other,reputation,mother,<15 min.,<2 hours,0,yes,yes,yes,yes,yes,yes,no,no,very good,medium,very low,very low,very low,bad,8,14,13,13
+GP,F,16,U,LE3,T,5th to 9th grade,5th to 9th grade,other,other,home,mother,15 to 30 min.,2 to 5 hours,1,no,yes,no,yes,no,yes,yes,yes,good,medium,medium,very low,low,good,25,7,10,11
+GP,M,15,U,LE3,T,higher education,higher education,teacher,other,home,other,<15 min.,<2 hours,0,no,yes,no,no,no,yes,yes,yes,excellent,high,medium,low,high,excellent,8,12,12,12
+GP,M,15,U,GT3,T,higher education,higher education,services,teacher,course,father,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,very good,medium,medium,very low,very low,excellent,2,19,18,18
+GP,M,15,U,GT3,T,5th to 9th grade,5th to 9th grade,services,services,course,father,<15 min.,<2 hours,0,yes,yes,no,no,yes,yes,yes,no,excellent,high,very low,very low,very low,very bad,0,8,8,11
+GP,F,16,U,LE3,T,5th to 9th grade,5th to 9th grade,other,at_home,course,father,15 to 30 min.,2 to 5 hours,1,yes,no,no,yes,yes,yes,yes,no,very good,medium,medium,low,low,excellent,14,10,10,9
+GP,F,15,U,LE3,A,higher education,secondary education,other,other,course,mother,<15 min.,2 to 5 hours,0,yes,yes,yes,yes,yes,yes,yes,yes,excellent,low,low,very low,very low,excellent,8,8,8,6
+GP,F,16,U,LE3,A,secondary education,secondary education,other,services,home,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,no,bad,medium,very high,very low,high,good,12,11,12,11
+GP,M,16,U,GT3,T,higher education,secondary education,health,services,reputation,mother,<15 min.,>10 hours,0,no,no,no,yes,yes,yes,yes,no,very good,low,low,very low,very low,bad,4,19,19,20
+GP,M,15,U,GT3,T,higher education,5th to 9th grade,teacher,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,no,no,very good,medium,medium,low,low,excellent,2,15,15,14
+GP,F,15,U,GT3,T,higher education,higher education,services,teacher,other,father,<15 min.,2 to 5 hours,1,yes,yes,no,yes,no,yes,yes,no,very good,high,high,very low,very low,good,2,7,7,7
+GP,F,16,U,LE3,T,5th to 9th grade,5th to 9th grade,services,services,course,mother,30 min. to 1 hour,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,medium,medium,low,medium,very good,2,12,13,13
+GP,F,15,U,LE3,T,higher education,5th to 9th grade,health,other,other,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,medium,medium,very low,very low,excellent,2,11,13,13
+GP,M,15,U,LE3,A,higher education,5th to 9th grade,health,health,other,father,15 to 30 min.,<2 hours,1,no,no,no,no,yes,yes,no,no,excellent,very high,very high,medium,high,excellent,6,11,11,10
+GP,F,15,U,GT3,T,higher education,higher education,services,services,course,mother,<15 min.,<2 hours,0,yes,yes,yes,no,yes,yes,yes,no,good,medium,high,low,medium,excellent,0,8,10,11
+GP,F,15,U,LE3,A,secondary education,secondary education,other,other,other,mother,<15 min.,<2 hours,0,no,no,yes,no,yes,yes,yes,no,excellent,medium,high,high,high,very bad,6,10,13,13
+GP,F,16,U,GT3,A,5th to 9th grade,primary education (4th grade),other,other,other,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,yes,excellent,medium,high,very low,very low,bad,8,8,9,10
+GP,F,15,U,GT3,A,higher education,secondary education,services,services,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,medium,low,very low,very low,very bad,0,14,15,15
+GP,M,15,U,GT3,T,higher education,higher education,teacher,health,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,no,no,good,low,low,very low,very low,excellent,4,14,15,15
+GP,M,15,U,LE3,T,primary education (4th grade),5th to 9th grade,other,at_home,home,father,<15 min.,2 to 5 hours,0,yes,yes,no,yes,yes,yes,yes,no,very good,medium,low,very low,very low,excellent,2,9,10,9
+GP,F,16,U,GT3,T,higher education,5th to 9th grade,services,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,no,very good,low,medium,very low,very low,excellent,2,15,16,16
+GP,F,16,R,GT3,T,higher education,higher education,health,teacher,other,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,no,no,bad,high,high,low,medium,very good,6,10,11,11
+GP,F,16,U,GT3,T,primary education (4th grade),primary education (4th grade),services,services,course,father,>1 hour,<2 hours,0,yes,yes,no,yes,no,yes,yes,yes,excellent,very high,very high,very high,very high,excellent,6,10,8,11
+GP,F,16,U,LE3,T,primary education (4th grade),5th to 9th grade,other,services,reputation,father,<15 min.,2 to 5 hours,0,yes,no,no,yes,yes,yes,yes,no,very good,high,medium,very low,very low,very bad,4,8,10,9
+GP,F,16,U,GT3,T,higher education,secondary education,teacher,health,home,mother,<15 min.,5 to 10 hours,0,yes,yes,yes,yes,yes,yes,yes,no,good,high,high,low,high,very good,2,10,9,9
+GP,F,15,U,LE3,T,higher education,secondary education,services,services,reputation,father,<15 min.,2 to 5 hours,0,yes,no,no,yes,yes,yes,yes,yes,very good,high,high,low,high,bad,0,10,10,10
+GP,F,16,U,LE3,T,higher education,secondary education,teacher,services,course,mother,30 min. to 1 hour,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,excellent,high,medium,very low,low,very bad,2,16,15,15
+GP,M,15,U,GT3,A,higher education,higher education,other,services,reputation,mother,<15 min.,>10 hours,0,no,yes,no,yes,no,yes,yes,yes,very bad,medium,medium,very high,very high,good,4,13,13,12
+GP,F,16,U,GT3,T,secondary education,primary education (4th grade),services,other,course,mother,<15 min.,>10 hours,0,yes,yes,yes,no,yes,yes,yes,no,very good,medium,medium,very low,low,excellent,4,7,7,6
+GP,F,15,R,LE3,T,5th to 9th grade,5th to 9th grade,health,services,reputation,mother,15 to 30 min.,2 to 5 hours,0,yes,yes,yes,no,yes,yes,yes,no,very good,very low,medium,very low,medium,very good,2,8,9,8
+GP,F,15,R,LE3,T,secondary education,primary education (4th grade),other,other,reputation,father,15 to 30 min.,>10 hours,0,no,yes,no,no,no,yes,yes,no,very good,high,low,low,medium,good,12,16,16,16
+GP,M,16,U,GT3,T,secondary education,primary education (4th grade),other,other,reputation,father,15 to 30 min.,>10 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,medium,low,very low,very low,excellent,0,13,15,15
+GP,M,15,U,GT3,T,higher education,5th to 9th grade,other,other,course,mother,<15 min.,>10 hours,0,no,no,no,no,yes,yes,yes,no,good,medium,medium,very low,very low,good,0,10,10,10
+GP,F,15,R,GT3,T,primary education (4th grade),primary education (4th grade),other,other,reputation,mother,<15 min.,2 to 5 hours,2,yes,yes,no,no,no,yes,yes,yes,good,medium,high,low,high,excellent,2,8,6,5
+GP,M,16,U,GT3,T,secondary education,primary education (4th grade),other,other,reputation,mother,<15 min.,<2 hours,0,no,no,no,yes,yes,yes,no,no,excellent,medium,low,low,low,excellent,2,12,12,14
+GP,F,16,U,GT3,T,secondary education,secondary education,other,services,home,mother,<15 min.,2 to 5 hours,0,yes,yes,yes,yes,yes,yes,yes,no,very good,medium,medium,low,high,excellent,54,11,12,11
+GP,M,15,U,GT3,T,higher education,secondary education,teacher,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,medium,medium,low,medium,excellent,6,9,9,10
+GP,M,15,U,GT3,T,higher education,none,teacher,other,course,mother,15 to 30 min.,>10 hours,0,no,no,no,yes,yes,yes,yes,no,good,high,medium,very low,very low,very bad,8,11,11,10
+GP,F,16,U,GT3,T,5th to 9th grade,5th to 9th grade,other,other,reputation,mother,<15 min.,>10 hours,0,no,no,yes,no,yes,yes,yes,yes,excellent,low,medium,very low,medium,good,0,11,11,11
+GP,M,17,U,GT3,T,5th to 9th grade,primary education (4th grade),other,other,home,mother,15 to 30 min.,<2 hours,3,yes,yes,no,yes,yes,no,yes,no,very good,very high,very low,very low,very low,good,2,8,8,10
+GP,F,16,U,GT3,T,secondary education,higher education,at_home,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,no,bad,high,medium,very low,low,good,12,5,5,5
+GP,M,15,U,GT3,T,5th to 9th grade,secondary education,other,services,course,father,<15 min.,<2 hours,0,yes,yes,yes,yes,no,yes,yes,yes,good,low,low,very low,medium,good,2,10,12,12
+GP,M,15,U,GT3,T,5th to 9th grade,secondary education,other,other,home,mother,<15 min.,5 to 10 hours,0,yes,no,yes,no,no,yes,yes,no,excellent,medium,low,very low,low,excellent,4,11,10,11
+GP,F,15,U,LE3,T,secondary education,5th to 9th grade,services,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,high,high,very low,very low,excellent,10,7,6,6
+GP,M,15,U,LE3,T,5th to 9th grade,5th to 9th grade,services,services,home,mother,15 to 30 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,no,excellent,medium,medium,very low,medium,very good,4,15,15,15
+GP,F,15,U,GT3,T,primary education (4th grade),primary education (4th grade),other,other,home,father,<15 min.,2 to 5 hours,0,no,yes,no,yes,no,yes,yes,no,very good,medium,low,low,medium,very good,2,9,10,10
+GP,F,15,U,GT3,T,higher education,higher education,services,services,reputation,father,15 to 30 min.,2 to 5 hours,2,no,no,yes,no,yes,yes,yes,yes,very good,high,high,low,medium,excellent,6,7,9,8
+GP,F,16,U,LE3,T,5th to 9th grade,5th to 9th grade,at_home,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,no,no,very good,medium,high,very low,low,bad,4,8,7,6
+GP,F,15,U,GT3,T,higher education,5th to 9th grade,other,other,reputation,mother,<15 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,no,excellent,medium,medium,very low,medium,very bad,4,13,14,14
+GP,M,16,U,GT3,T,5th to 9th grade,5th to 9th grade,services,other,reputation,father,15 to 30 min.,2 to 5 hours,1,no,no,yes,yes,no,yes,yes,no,very good,high,low,very low,very low,good,12,11,10,10
+GP,M,16,U,LE3,A,higher education,higher education,teacher,health,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,no,no,very good,very low,medium,medium,very high,excellent,18,8,6,7
+GP,F,16,U,GT3,T,secondary education,secondary education,other,other,home,mother,<15 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,yes,very good,medium,medium,very low,medium,very good,0,7,7,8
+GP,F,15,U,GT3,T,higher education,secondary education,services,other,reputation,mother,<15 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,no,very good,very high,very high,very low,medium,very bad,4,16,17,18
+GP,F,16,U,LE3,T,secondary education,primary education (4th grade),other,other,home,father,<15 min.,2 to 5 hours,0,yes,yes,no,no,yes,yes,no,no,good,medium,medium,low,medium,bad,4,7,6,6
+GP,F,16,U,GT3,T,higher education,5th to 9th grade,teacher,services,home,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,excellent,medium,medium,very low,very low,very bad,0,11,10,10
+GP,M,15,U,LE3,T,5th to 9th grade,5th to 9th grade,services,health,reputation,mother,<15 min.,>10 hours,0,no,yes,no,yes,yes,yes,yes,no,very good,medium,high,very low,very low,very good,6,11,13,14
+GP,F,15,R,GT3,T,primary education (4th grade),primary education (4th grade),at_home,other,home,mother,15 to 30 min.,>10 hours,1,yes,yes,yes,yes,yes,yes,yes,no,good,very low,low,very low,very low,very bad,2,7,10,10
+GP,M,16,R,GT3,T,higher education,secondary education,services,other,reputation,mother,15 to 30 min.,<2 hours,0,yes,yes,no,yes,no,yes,yes,no,good,medium,medium,very low,very low,very good,2,11,15,15
+GP,F,16,U,GT3,T,5th to 9th grade,primary education (4th grade),other,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,no,yes,very good,medium,very high,very low,very low,excellent,2,8,9,10
+GP,F,16,U,GT3,T,higher education,higher education,other,other,reputation,mother,<15 min.,<2 hours,0,no,no,no,yes,no,yes,yes,no,excellent,medium,high,very low,low,very bad,6,11,14,14
+GP,F,16,U,GT3,T,higher education,secondary education,other,at_home,course,mother,<15 min.,5 to 10 hours,0,yes,yes,yes,no,yes,yes,yes,no,excellent,medium,very high,very low,very low,good,0,7,9,8
+GP,M,16,U,GT3,T,higher education,higher education,services,services,other,mother,<15 min.,<2 hours,0,yes,yes,yes,yes,yes,yes,yes,no,very good,very high,very high,very high,very high,very good,14,7,7,5
+GP,M,16,U,GT3,T,higher education,higher education,services,teacher,other,father,<15 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,yes,very good,high,medium,very low,very low,very good,0,16,17,17
+GP,M,15,U,GT3,T,higher education,higher education,services,other,course,mother,<15 min.,<2 hours,0,no,yes,no,yes,no,yes,yes,no,excellent,medium,medium,very low,very low,excellent,4,10,13,14
+GP,F,15,U,GT3,T,secondary education,5th to 9th grade,services,other,home,mother,15 to 30 min.,2 to 5 hours,0,yes,yes,yes,no,yes,yes,yes,no,very good,medium,very high,very low,very low,bad,26,7,6,6
+GP,M,15,U,GT3,A,secondary education,higher education,services,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,excellent,high,high,very low,very low,very bad,0,16,18,18
+GP,F,15,U,GT3,A,secondary education,secondary education,other,health,reputation,father,<15 min.,>10 hours,0,yes,no,no,no,yes,yes,no,no,very good,medium,medium,very low,very low,very good,10,10,11,11
+GP,F,15,U,GT3,T,5th to 9th grade,5th to 9th grade,other,other,course,mother,<15 min.,>10 hours,0,yes,yes,yes,no,yes,yes,yes,no,excellent,very low,low,very low,very low,good,8,7,8,8
+GP,M,16,U,GT3,T,secondary education,secondary education,services,other,home,father,<15 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,no,excellent,medium,medium,very low,very low,excellent,2,16,18,18
+GP,M,15,R,GT3,T,higher education,higher education,other,other,home,father,>1 hour,>10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very bad,medium,very high,medium,very high,very bad,6,10,13,13
+GP,F,16,U,LE3,T,higher education,higher education,health,health,other,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,excellent,high,very high,very low,very low,very good,4,14,15,16
+GP,M,15,U,LE3,A,higher education,higher education,teacher,teacher,course,mother,<15 min.,<2 hours,0,no,no,no,yes,yes,yes,yes,no,excellent,very high,medium,very low,very low,very good,6,18,19,19
+GP,F,16,R,GT3,T,secondary education,secondary education,services,other,reputation,father,<15 min.,5 to 10 hours,1,yes,yes,no,yes,yes,yes,yes,no,very good,very low,low,very low,very low,bad,0,7,10,10
+GP,F,16,U,GT3,T,5th to 9th grade,5th to 9th grade,at_home,other,home,mother,<15 min.,2 to 5 hours,1,yes,no,no,yes,yes,yes,yes,no,good,very low,low,very low,very low,excellent,6,10,13,13
+GP,M,15,U,LE3,T,higher education,5th to 9th grade,teacher,other,course,mother,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,good,very high,low,very low,very low,good,10,18,19,19
+GP,M,15,R,GT3,T,5th to 9th grade,primary education (4th grade),health,services,reputation,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,yes,excellent,high,low,very low,very low,excellent,8,9,9,9
+GP,M,16,U,GT3,T,higher education,higher education,teacher,teacher,course,father,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,excellent,high,high,very low,low,excellent,2,15,15,16
+GP,M,15,U,GT3,T,higher education,higher education,other,teacher,reputation,father,15 to 30 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,no,no,very good,high,medium,very low,very low,bad,2,11,13,14
+GP,M,16,U,GT3,T,secondary education,secondary education,other,services,home,father,15 to 30 min.,<2 hours,0,no,no,no,yes,yes,yes,yes,no,excellent,high,low,very low,very low,excellent,0,13,14,13
+GP,M,17,R,GT3,T,primary education (4th grade),secondary education,other,other,course,father,30 min. to 1 hour,2 to 5 hours,1,no,yes,no,yes,yes,yes,yes,no,excellent,low,high,very low,high,excellent,20,9,7,8
+GP,M,15,U,GT3,T,secondary education,higher education,other,other,reputation,father,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,good,high,medium,very low,low,very good,6,14,13,13
+GP,F,15,U,GT3,T,primary education (4th grade),5th to 9th grade,at_home,services,course,mother,<15 min.,2 to 5 hours,0,no,no,no,no,no,yes,yes,no,good,low,medium,very low,low,very bad,2,16,15,15
+GP,M,15,U,GT3,T,5th to 9th grade,5th to 9th grade,services,services,home,father,<15 min.,>10 hours,0,no,yes,yes,yes,yes,yes,yes,no,excellent,very high,high,very low,low,excellent,6,16,14,15
+GP,F,16,U,LE3,T,5th to 9th grade,higher education,other,health,course,father,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very good,low,low,very low,low,excellent,2,13,13,13
+GP,M,16,U,GT3,T,higher education,higher education,health,other,course,mother,<15 min.,<2 hours,0,no,yes,no,yes,yes,yes,yes,no,good,high,high,very low,high,excellent,18,14,11,13
+GP,F,16,U,GT3,T,5th to 9th grade,5th to 9th grade,other,other,home,mother,<15 min.,2 to 5 hours,0,no,no,yes,no,yes,yes,yes,yes,excellent,high,high,very low,very low,excellent,0,8,7,8
+GP,M,15,U,GT3,T,secondary education,higher education,services,services,home,father,<15 min.,<2 hours,0,yes,no,no,no,yes,yes,yes,no,excellent,very high,very high,medium,low,excellent,0,13,13,12
+GP,F,15,U,LE3,A,secondary education,higher education,other,other,home,mother,<15 min.,2 to 5 hours,0,yes,no,no,yes,yes,yes,yes,yes,excellent,medium,low,very low,very low,very bad,0,7,10,11
+GP,F,19,U,GT3,T,none,primary education (4th grade),at_home,other,course,other,<15 min.,2 to 5 hours,3,no,yes,no,no,no,no,no,no,good,high,low,very low,very low,excellent,2,7,8,9
+GP,M,18,R,GT3,T,5th to 9th grade,5th to 9th grade,services,other,reputation,mother,<15 min.,<2 hours,2,no,yes,no,yes,yes,yes,yes,no,good,medium,medium,very low,low,very good,0,7,4,0
+GP,M,16,R,GT3,T,higher education,higher education,teacher,teacher,course,mother,<15 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,no,good,very high,very high,low,very high,very good,8,18,18,18
+GP,F,15,R,GT3,T,secondary education,higher education,services,teacher,course,father,15 to 30 min.,5 to 10 hours,2,no,yes,no,no,yes,yes,yes,yes,very good,low,low,low,low,excellent,0,12,0,0
+GP,F,15,U,GT3,T,primary education (4th grade),primary education (4th grade),at_home,other,course,mother,30 min. to 1 hour,<2 hours,0,no,yes,no,yes,no,yes,yes,yes,very good,medium,medium,very low,low,very good,0,8,0,0
+GP,F,17,U,LE3,T,5th to 9th grade,5th to 9th grade,other,other,course,father,<15 min.,<2 hours,0,no,yes,no,no,yes,yes,yes,yes,good,high,high,very low,medium,excellent,12,10,13,12
+GP,F,16,U,GT3,A,secondary education,higher education,services,other,course,father,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,good,low,very low,very low,high,excellent,16,12,11,11
+GP,M,15,R,GT3,T,secondary education,higher education,at_home,teacher,course,mother,>1 hour,2 to 5 hours,0,no,yes,no,no,yes,yes,no,yes,excellent,medium,medium,very low,very low,excellent,0,9,0,0
+GP,F,15,U,GT3,T,higher education,higher education,services,at_home,course,mother,<15 min.,5 to 10 hours,0,no,yes,no,yes,yes,yes,yes,yes,very good,medium,medium,very low,very low,excellent,0,11,0,0
+GP,M,17,R,GT3,T,secondary education,higher education,at_home,other,course,mother,30 min. to 1 hour,2 to 5 hours,0,no,no,no,no,yes,yes,no,no,excellent,high,very high,low,high,excellent,0,10,0,0
+GP,F,16,U,GT3,A,secondary education,secondary education,other,other,course,other,15 to 30 min.,<2 hours,2,no,yes,no,yes,no,yes,yes,yes,very good,medium,low,very low,very low,excellent,0,4,0,0
+GP,M,16,U,LE3,T,primary education (4th grade),primary education (4th grade),services,other,course,mother,<15 min.,2 to 5 hours,1,no,no,no,no,yes,yes,no,yes,very good,high,high,very low,medium,excellent,0,14,12,12
+GP,F,15,U,GT3,T,higher education,higher education,teacher,teacher,course,mother,15 to 30 min.,<2 hours,0,no,no,no,yes,yes,yes,yes,no,very good,medium,low,very low,very low,excellent,0,16,16,15
+GP,M,15,U,GT3,T,higher education,secondary education,teacher,services,course,father,15 to 30 min.,>10 hours,0,yes,yes,no,no,yes,yes,yes,no,bad,low,low,very low,very low,good,0,7,9,0
+GP,M,16,U,LE3,T,5th to 9th grade,5th to 9th grade,services,services,reputation,father,15 to 30 min.,<2 hours,2,no,yes,no,yes,yes,yes,yes,no,bad,medium,medium,low,low,bad,8,9,9,9
+GP,F,15,U,GT3,T,higher education,higher education,teacher,services,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,low,low,very low,very low,excellent,2,9,11,11
+GP,F,16,U,LE3,T,primary education (4th grade),primary education (4th grade),at_home,at_home,course,mother,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,good,high,high,medium,medium,very bad,2,14,14,13
+GP,M,17,U,GT3,T,5th to 9th grade,primary education (4th grade),other,other,home,mother,<15 min.,<2 hours,3,no,yes,no,no,yes,yes,yes,no,excellent,high,very high,very low,low,excellent,0,5,0,0
+GP,F,15,U,GT3,T,primary education (4th grade),primary education (4th grade),other,services,course,father,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,high,low,very low,low,excellent,0,8,11,11
+GP,F,15,U,GT3,T,secondary education,5th to 9th grade,health,services,home,father,<15 min.,2 to 5 hours,3,no,yes,no,no,yes,yes,yes,no,good,medium,low,very low,very low,good,0,6,7,0
+GP,F,15,U,GT3,T,primary education (4th grade),5th to 9th grade,at_home,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,no,very good,medium,low,very low,very low,excellent,2,10,11,11
+GP,M,16,U,GT3,T,higher education,higher education,teacher,teacher,course,mother,<15 min.,<2 hours,0,no,yes,no,no,yes,no,yes,yes,good,medium,low,low,very low,excellent,0,7,6,0
+GP,M,15,U,LE3,A,5th to 9th grade,primary education (4th grade),services,other,course,mother,>1 hour,<2 hours,3,no,no,no,no,yes,yes,yes,no,very good,very high,very high,low,very high,excellent,0,8,9,10
+GP,M,18,U,LE3,T,primary education (4th grade),primary education (4th grade),other,other,course,mother,<15 min.,<2 hours,3,no,no,no,no,yes,no,yes,yes,bad,medium,very high,low,very high,very good,0,6,5,0
+GP,M,16,U,LE3,T,5th to 9th grade,primary education (4th grade),at_home,other,course,mother,<15 min.,<2 hours,1,no,no,no,yes,yes,yes,no,yes,very good,high,high,medium,very high,excellent,6,12,13,14
+GP,F,15,R,GT3,T,secondary education,secondary education,services,services,reputation,other,15 to 30 min.,5 to 10 hours,2,no,yes,yes,yes,yes,yes,yes,yes,very good,low,very low,low,medium,good,8,10,10,10
+GP,M,19,U,GT3,T,secondary education,5th to 9th grade,services,at_home,home,mother,<15 min.,<2 hours,3,no,yes,no,no,yes,no,yes,yes,very good,very high,high,very low,very low,very good,0,5,0,0
+GP,F,17,U,GT3,T,higher education,higher education,other,teacher,course,mother,<15 min.,<2 hours,0,yes,yes,no,no,yes,yes,no,yes,very good,low,very low,very low,very low,very good,0,11,11,12
+GP,M,15,R,GT3,T,5th to 9th grade,secondary education,at_home,services,course,mother,<15 min.,2 to 5 hours,0,yes,no,yes,yes,yes,yes,no,no,very good,high,high,very low,very low,very bad,2,11,8,8
+GP,M,17,R,LE3,T,primary education (4th grade),5th to 9th grade,other,other,reputation,mother,<15 min.,<2 hours,0,no,no,no,no,yes,yes,no,no,bad,low,low,medium,medium,excellent,8,16,12,13
+GP,F,18,R,GT3,T,primary education (4th grade),primary education (4th grade),at_home,other,course,mother,30 min. to 1 hour,<2 hours,3,no,yes,no,yes,no,yes,no,no,excellent,low,very high,very low,very high,very good,6,9,8,10
+GP,M,16,R,GT3,T,5th to 9th grade,5th to 9th grade,at_home,other,course,mother,30 min. to 1 hour,<2 hours,0,no,no,no,no,no,yes,no,no,very good,low,low,very low,low,good,2,17,15,15
+GP,M,16,U,GT3,T,secondary education,secondary education,other,services,course,father,<15 min.,2 to 5 hours,1,no,yes,yes,no,yes,yes,yes,yes,very good,very high,very high,high,high,excellent,4,10,12,12
+GP,M,17,R,LE3,T,5th to 9th grade,primary education (4th grade),at_home,other,course,mother,15 to 30 min.,<2 hours,2,no,no,no,yes,yes,no,yes,yes,good,medium,low,low,low,excellent,0,7,6,0
+GP,M,15,R,GT3,T,secondary education,5th to 9th grade,other,other,course,mother,15 to 30 min.,2 to 5 hours,2,yes,yes,no,no,yes,yes,yes,yes,very good,high,high,very low,high,good,6,5,9,7
+GP,M,16,U,LE3,T,primary education (4th grade),5th to 9th grade,other,other,course,mother,15 to 30 min.,<2 hours,1,no,no,no,yes,yes,yes,no,no,very good,high,high,low,high,excellent,0,7,0,0
+GP,M,17,U,GT3,T,primary education (4th grade),secondary education,at_home,services,course,father,<15 min.,<2 hours,0,no,no,no,no,yes,no,yes,no,excellent,medium,medium,very low,high,bad,2,10,10,10
+GP,M,17,R,LE3,T,primary education (4th grade),primary education (4th grade),other,services,course,mother,>1 hour,2 to 5 hours,3,no,no,no,yes,yes,no,no,yes,excellent,medium,very high,very low,very high,excellent,0,5,8,7
+GP,M,16,U,GT3,T,secondary education,5th to 9th grade,services,services,course,mother,15 to 30 min.,<2 hours,1,no,yes,no,yes,no,no,no,no,very good,very high,low,very low,very low,bad,16,12,11,12
+GP,M,16,U,GT3,T,5th to 9th grade,5th to 9th grade,other,other,course,father,<15 min.,2 to 5 hours,0,no,no,no,no,yes,no,yes,no,very good,medium,very high,low,high,very good,4,10,10,10
+GP,F,16,U,GT3,T,higher education,5th to 9th grade,health,services,home,father,<15 min.,2 to 5 hours,0,no,no,yes,no,yes,yes,yes,yes,very good,low,medium,very low,very low,good,0,14,15,16
+GP,F,16,U,GT3,T,5th to 9th grade,5th to 9th grade,other,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,no,excellent,very low,very high,very low,very low,very good,0,6,7,0
+GP,F,16,U,GT3,T,higher education,higher education,health,health,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,very good,high,low,very low,very low,good,0,14,14,14
+GP,M,16,U,GT3,T,secondary education,higher education,other,other,course,father,30 min. to 1 hour,<2 hours,2,no,yes,no,yes,no,yes,yes,no,good,high,very high,low,high,bad,0,6,5,0
+GP,M,16,U,GT3,T,primary education (4th grade),none,other,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very good,medium,low,very low,very low,good,2,13,15,16
+GP,M,17,U,LE3,T,higher education,higher education,teacher,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,high,high,very low,medium,excellent,0,13,11,10
+GP,F,16,U,GT3,T,primary education (4th grade),secondary education,at_home,services,home,mother,<15 min.,2 to 5 hours,3,no,no,no,yes,no,yes,yes,yes,very good,medium,very high,very low,very low,good,0,8,7,0
+GP,F,16,U,LE3,T,secondary education,secondary education,other,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,high,very high,very low,very low,very good,4,10,11,9
+GP,M,17,U,LE3,T,higher education,secondary education,teacher,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,no,very good,high,high,high,high,very good,4,10,9,9
+GP,F,16,U,GT3,T,5th to 9th grade,5th to 9th grade,services,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,no,yes,yes,no,yes,yes,no,good,high,high,very low,high,excellent,2,13,13,11
+GP,M,17,U,GT3,T,secondary education,secondary education,other,other,reputation,father,<15 min.,2 to 5 hours,0,no,no,no,yes,no,yes,yes,no,very good,medium,high,very low,high,very good,4,6,5,6
+GP,M,16,R,GT3,T,higher education,5th to 9th grade,teacher,services,other,mother,<15 min.,<2 hours,0,no,yes,no,yes,yes,yes,yes,yes,very good,medium,medium,medium,high,good,10,10,8,9
+GP,M,17,U,GT3,T,higher education,secondary education,other,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,yes,excellent,low,medium,very low,very low,bad,4,10,10,11
+GP,M,16,U,GT3,T,higher education,secondary education,teacher,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,good,high,medium,low,medium,good,10,9,8,8
+GP,M,16,U,GT3,T,secondary education,secondary education,services,other,home,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,yes,very good,low,medium,very low,low,good,2,12,13,12
+GP,F,17,U,GT3,T,5th to 9th grade,higher education,services,services,reputation,father,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,no,no,excellent,high,low,low,medium,excellent,0,16,17,17
+GP,F,17,U,LE3,T,secondary education,secondary education,other,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,yes,excellent,medium,medium,low,medium,very bad,56,9,9,8
+GP,F,16,U,GT3,T,secondary education,5th to 9th grade,other,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very bad,low,low,very low,low,very bad,14,12,13,12
+GP,M,17,U,GT3,T,secondary education,secondary education,services,services,other,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,yes,very good,medium,high,low,medium,very good,12,12,12,11
+GP,M,16,U,GT3,T,primary education (4th grade),5th to 9th grade,services,services,other,mother,<15 min.,<2 hours,0,no,yes,yes,yes,yes,yes,yes,yes,good,medium,medium,very low,low,good,2,11,12,11
+GP,M,16,U,LE3,T,5th to 9th grade,primary education (4th grade),other,other,course,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,yes,very good,low,medium,very low,low,excellent,0,15,15,15
+GP,F,17,U,GT3,A,secondary education,secondary education,health,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,no,yes,yes,yes,good,medium,medium,very low,medium,good,6,8,7,9
+GP,M,17,R,GT3,T,primary education (4th grade),5th to 9th grade,at_home,other,home,mother,<15 min.,2 to 5 hours,0,no,no,no,no,yes,yes,no,no,good,very low,medium,very low,very high,good,4,8,9,10
+GP,F,16,U,GT3,T,5th to 9th grade,secondary education,services,services,course,mother,<15 min.,2 to 5 hours,0,no,no,no,no,yes,yes,yes,no,very good,medium,medium,very low,very low,bad,10,11,12,13
+GP,F,17,U,GT3,T,primary education (4th grade),primary education (4th grade),at_home,services,course,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,no,excellent,medium,medium,very low,very low,good,0,8,8,9
+GP,M,17,U,GT3,T,primary education (4th grade),5th to 9th grade,at_home,services,other,other,15 to 30 min.,2 to 5 hours,0,no,no,yes,yes,no,yes,yes,no,very good,high,high,high,very high,excellent,12,7,8,8
+GP,M,16,R,GT3,T,secondary education,secondary education,services,services,reputation,mother,<15 min.,<2 hours,0,no,yes,no,yes,yes,yes,yes,no,very good,medium,low,medium,high,excellent,8,8,9,10
+GP,M,16,U,GT3,T,5th to 9th grade,secondary education,other,other,home,father,15 to 30 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,excellent,medium,medium,very low,very low,good,0,13,14,14
+GP,F,17,U,LE3,T,5th to 9th grade,higher education,services,services,course,father,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,yes,very good,medium,low,very low,very low,excellent,0,14,15,15
+GP,M,17,U,GT3,T,higher education,higher education,services,teacher,home,mother,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,excellent,low,medium,very low,low,excellent,4,17,15,16
+GP,M,16,R,LE3,T,secondary education,secondary education,teacher,other,home,father,30 min. to 1 hour,<2 hours,0,no,yes,yes,yes,yes,yes,yes,no,good,medium,high,medium,very high,good,8,9,9,10
+GP,F,17,U,GT3,T,higher education,higher education,services,teacher,home,mother,15 to 30 min.,<2 hours,1,no,yes,no,no,yes,yes,yes,no,very good,low,high,low,medium,bad,24,18,18,18
+GP,F,16,U,LE3,T,higher education,higher education,teacher,teacher,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,very high,low,very low,low,good,0,9,9,10
+GP,F,16,U,GT3,T,higher education,secondary education,health,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,very good,medium,very high,very low,very high,bad,2,16,16,16
+GP,F,16,U,GT3,T,5th to 9th grade,secondary education,other,other,reputation,mother,<15 min.,2 to 5 hours,0,yes,yes,yes,yes,yes,yes,no,no,very good,high,medium,very low,medium,very good,6,8,10,10
+GP,F,17,U,GT3,T,primary education (4th grade),primary education (4th grade),other,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,no,no,very good,high,high,very low,medium,very bad,4,9,9,10
+GP,F,17,R,GT3,T,5th to 9th grade,5th to 9th grade,other,other,reputation,mother,<15 min.,<2 hours,0,no,yes,no,no,yes,yes,yes,no,excellent,medium,low,very low,low,good,18,7,6,6
+GP,F,16,R,GT3,T,5th to 9th grade,5th to 9th grade,services,services,reputation,mother,15 to 30 min.,>10 hours,0,no,yes,yes,yes,no,yes,yes,no,excellent,medium,very high,very low,very low,excellent,6,10,10,11
+GP,F,17,U,GT3,T,secondary education,higher education,at_home,services,home,mother,<15 min.,5 to 10 hours,1,no,yes,yes,no,yes,yes,yes,yes,very good,high,medium,medium,high,excellent,28,10,9,9
+GP,F,16,U,GT3,A,secondary education,primary education (4th grade),services,other,course,mother,<15 min.,2 to 5 hours,3,no,yes,yes,no,yes,yes,yes,no,bad,medium,medium,low,low,very good,5,7,7,7
+GP,F,16,U,GT3,T,higher education,secondary education,teacher,other,other,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,yes,very bad,medium,low,very low,very low,very bad,10,11,12,13
+GP,F,16,U,GT3,T,primary education (4th grade),primary education (4th grade),at_home,other,home,mother,15 to 30 min.,<2 hours,0,no,yes,yes,no,yes,yes,no,no,very good,medium,low,very low,high,excellent,6,9,9,10
+GP,F,17,R,GT3,T,higher education,secondary education,teacher,other,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very good,high,low,very low,very low,very good,6,7,7,7
+GP,F,19,U,GT3,T,secondary education,secondary education,other,other,reputation,other,<15 min.,>10 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,medium,medium,very low,low,good,10,8,8,8
+GP,M,17,U,LE3,T,higher education,higher education,services,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,excellent,medium,very high,high,very high,good,13,12,12,13
+GP,F,16,U,GT3,A,5th to 9th grade,5th to 9th grade,other,other,reputation,mother,<15 min.,2 to 5 hours,0,yes,yes,yes,no,yes,yes,yes,no,good,medium,high,very low,very low,very good,0,12,13,14
+GP,M,18,U,GT3,T,5th to 9th grade,5th to 9th grade,services,other,home,mother,<15 min.,2 to 5 hours,1,no,yes,yes,yes,yes,yes,yes,no,very good,high,high,low,high,excellent,15,6,7,8
+GP,F,17,R,LE3,T,higher education,higher education,services,other,other,mother,<15 min.,<2 hours,0,no,yes,yes,no,yes,yes,no,no,excellent,low,very low,very low,low,good,12,8,10,10
+GP,F,17,U,LE3,T,secondary education,5th to 9th grade,other,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,no,yes,no,yes,yes,yes,no,very good,high,high,very low,medium,very bad,2,14,15,15
+GP,F,17,U,GT3,T,higher education,secondary education,other,other,reputation,mother,<15 min.,2 to 5 hours,2,no,no,yes,no,yes,yes,yes,yes,good,high,very high,low,high,very bad,22,6,6,4
+GP,M,18,U,LE3,T,secondary education,secondary education,services,health,home,father,<15 min.,2 to 5 hours,1,no,yes,yes,no,yes,yes,yes,no,good,low,high,low,high,very good,13,6,6,8
+GP,F,17,U,GT3,T,5th to 9th grade,secondary education,at_home,other,home,father,15 to 30 min.,<2 hours,0,no,yes,yes,no,yes,yes,no,no,good,medium,medium,very low,high,good,3,7,7,8
+GP,F,17,U,GT3,T,5th to 9th grade,5th to 9th grade,at_home,at_home,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,medium,medium,very low,very low,very good,4,9,10,10
+GP,F,17,R,GT3,T,5th to 9th grade,primary education (4th grade),at_home,services,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,no,yes,yes,yes,yes,no,very good,low,very high,very low,low,excellent,2,6,6,6
+GP,F,17,U,GT3,T,primary education (4th grade),primary education (4th grade),at_home,other,reputation,mother,<15 min.,5 to 10 hours,1,no,yes,no,yes,yes,yes,no,yes,very good,medium,high,very low,very low,excellent,0,6,5,0
+GP,F,16,U,GT3,T,5th to 9th grade,secondary education,services,teacher,other,mother,<15 min.,2 to 5 hours,0,yes,no,no,no,yes,yes,yes,no,bad,medium,very low,very low,very low,good,2,16,16,17
+GP,M,18,U,GT3,T,5th to 9th grade,5th to 9th grade,other,other,home,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,good,medium,medium,very high,very high,very good,0,12,13,13
+GP,F,16,U,GT3,T,higher education,higher education,teacher,services,home,mother,<15 min.,5 to 10 hours,0,no,yes,no,yes,no,yes,yes,no,excellent,medium,low,very low,very low,excellent,0,13,13,14
+GP,F,18,R,GT3,T,secondary education,primary education (4th grade),other,other,reputation,mother,<15 min.,2 to 5 hours,1,no,no,no,yes,yes,yes,yes,yes,excellent,medium,medium,very low,very low,very good,16,9,8,7
+GP,F,17,U,GT3,T,secondary education,5th to 9th grade,other,other,course,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,no,yes,yes,no,excellent,medium,high,very low,medium,good,10,16,15,15
+GP,M,17,U,LE3,T,5th to 9th grade,secondary education,services,services,reputation,father,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,no,excellent,medium,medium,very low,medium,good,2,12,11,12
+GP,M,18,U,LE3,T,5th to 9th grade,primary education (4th grade),at_home,other,course,mother,>1 hour,2 to 5 hours,0,yes,yes,yes,yes,yes,yes,yes,yes,very good,medium,low,high,very high,good,14,10,8,9
+GP,F,17,U,GT3,A,5th to 9th grade,primary education (4th grade),other,other,course,mother,15 to 30 min.,5 to 10 hours,0,no,no,no,yes,yes,yes,yes,yes,good,low,medium,very low,low,good,10,12,10,12
+GP,F,17,U,LE3,T,higher education,secondary education,health,other,reputation,father,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,yes,good,low,medium,very low,low,good,14,13,13,14
+GP,M,17,R,GT3,T,5th to 9th grade,5th to 9th grade,other,other,course,father,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,very high,low,very low,very low,very bad,4,11,11,11
+GP,M,17,U,GT3,T,higher education,higher education,teacher,teacher,reputation,mother,<15 min.,2 to 5 hours,0,yes,yes,no,yes,yes,yes,yes,yes,very good,very high,very high,very low,medium,bad,14,11,9,9
+GP,M,16,U,GT3,T,higher education,higher education,health,other,reputation,father,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,low,high,low,high,very bad,2,14,13,13
+GP,M,16,U,LE3,T,primary education (4th grade),primary education (4th grade),other,other,home,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,good,high,low,very low,very low,excellent,18,9,7,6
+GP,M,16,U,GT3,T,secondary education,5th to 9th grade,at_home,other,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,no,no,yes,yes,yes,yes,yes,excellent,medium,medium,very low,medium,bad,10,11,9,10
+GP,M,17,U,LE3,T,5th to 9th grade,5th to 9th grade,other,other,home,father,<15 min.,2 to 5 hours,0,no,no,yes,yes,no,yes,yes,yes,very good,high,low,very high,very high,very good,4,14,13,13
+GP,F,16,U,GT3,T,5th to 9th grade,primary education (4th grade),other,other,home,mother,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,yes,very good,very high,low,very low,very low,excellent,20,13,12,12
+GP,F,17,R,GT3,T,5th to 9th grade,primary education (4th grade),at_home,services,course,mother,30 min. to 1 hour,2 to 5 hours,0,no,no,no,yes,yes,yes,no,no,bad,very low,very low,very low,very low,good,2,13,11,11
+GP,M,18,U,GT3,T,5th to 9th grade,5th to 9th grade,other,services,reputation,father,<15 min.,2 to 5 hours,1,no,no,no,no,yes,no,yes,no,excellent,very high,high,medium,very high,bad,0,7,7,0
+GP,M,17,U,LE3,T,higher education,secondary education,health,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,yes,bad,very high,very high,very low,high,excellent,14,12,12,12
+GP,M,17,R,LE3,A,higher education,higher education,teacher,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,good,medium,medium,low,medium,very good,2,10,11,12
+GP,M,16,U,LE3,T,higher education,secondary education,teacher,other,course,mother,<15 min.,<2 hours,0,no,no,no,yes,no,yes,yes,no,excellent,high,very high,very low,very low,good,0,6,0,0
+GP,M,16,U,GT3,T,higher education,higher education,services,services,course,mother,<15 min.,<2 hours,0,no,no,no,yes,yes,yes,yes,no,excellent,medium,low,very low,low,excellent,0,13,12,12
+GP,F,18,U,GT3,T,5th to 9th grade,primary education (4th grade),other,other,course,other,15 to 30 min.,5 to 10 hours,0,no,yes,yes,no,no,yes,yes,yes,very good,high,high,very low,very low,good,0,7,0,0
+GP,M,16,U,GT3,T,5th to 9th grade,primary education (4th grade),other,other,course,mother,30 min. to 1 hour,<2 hours,0,no,no,no,no,yes,yes,yes,no,very good,medium,medium,very low,very low,very good,6,18,18,18
+GP,M,17,U,GT3,T,5th to 9th grade,secondary education,other,other,course,father,15 to 30 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,excellent,low,low,very low,very low,bad,4,12,12,13
+GP,M,22,U,GT3,T,secondary education,primary education (4th grade),services,services,other,mother,<15 min.,<2 hours,3,no,no,no,no,no,no,yes,yes,excellent,high,very high,very high,very high,very bad,16,6,8,8
+GP,M,18,R,LE3,T,secondary education,secondary education,other,services,course,mother,<15 min.,2 to 5 hours,1,no,yes,no,no,yes,yes,yes,yes,very good,medium,medium,very low,medium,excellent,8,3,5,5
+GP,M,16,U,GT3,T,none,5th to 9th grade,other,other,other,mother,<15 min.,<2 hours,0,no,no,yes,no,no,yes,yes,no,very good,medium,low,low,high,excellent,0,13,15,15
+GP,M,18,U,GT3,T,secondary education,5th to 9th grade,services,other,course,mother,15 to 30 min.,<2 hours,1,no,no,no,no,yes,no,yes,no,very good,high,very high,low,high,excellent,0,6,8,8
+GP,M,16,U,GT3,T,secondary education,secondary education,at_home,other,reputation,other,30 min. to 1 hour,2 to 5 hours,0,yes,yes,no,no,no,yes,yes,no,excellent,medium,medium,very low,medium,bad,6,7,10,10
+GP,M,18,U,GT3,T,5th to 9th grade,primary education (4th grade),services,services,other,mother,<15 min.,<2 hours,1,no,no,no,no,no,no,yes,no,good,low,very high,low,very high,excellent,4,6,9,8
+GP,M,16,R,GT3,T,5th to 9th grade,primary education (4th grade),other,other,course,mother,15 to 30 min.,<2 hours,0,no,no,no,yes,no,yes,no,no,good,medium,low,very low,medium,good,0,8,9,8
+GP,M,17,R,GT3,T,5th to 9th grade,primary education (4th grade),other,other,course,mother,<15 min.,<2 hours,0,no,no,no,no,no,yes,yes,no,very good,high,low,low,high,excellent,0,8,12,12
+GP,M,17,U,LE3,T,primary education (4th grade),primary education (4th grade),health,other,course,mother,15 to 30 min.,<2 hours,1,no,yes,no,yes,yes,yes,yes,no,very good,high,high,very low,low,excellent,2,7,9,8
+GP,F,17,U,LE3,T,higher education,5th to 9th grade,teacher,services,reputation,mother,<15 min.,>10 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,low,medium,very low,very low,very good,6,14,12,13
+GP,M,19,U,LE3,A,higher education,secondary education,services,at_home,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,no,very good,medium,very low,very low,very low,very bad,12,11,11,11
+GP,M,18,U,GT3,T,5th to 9th grade,primary education (4th grade),other,other,home,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,no,excellent,low,high,very low,low,very good,8,15,14,14
+GP,F,17,U,LE3,T,5th to 9th grade,5th to 9th grade,services,services,course,father,<15 min.,>10 hours,0,no,no,yes,yes,yes,yes,yes,yes,good,high,very low,very low,very low,bad,0,10,9,0
+GP,F,18,U,GT3,T,higher education,secondary education,services,other,home,father,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,good,very low,low,very low,medium,bad,21,17,18,18
+GP,M,18,U,GT3,T,higher education,secondary education,teacher,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,no,very good,medium,low,very low,very low,good,2,8,8,8
+GP,M,18,R,GT3,T,secondary education,5th to 9th grade,other,other,course,mother,<15 min.,5 to 10 hours,0,no,no,no,yes,no,yes,no,no,excellent,medium,low,very low,very low,good,1,13,12,12
+GP,F,17,U,GT3,T,secondary education,secondary education,other,other,home,mother,<15 min.,5 to 10 hours,0,no,no,no,yes,no,yes,no,no,good,low,medium,very low,very low,very good,4,10,9,9
+GP,F,18,U,GT3,T,5th to 9th grade,5th to 9th grade,at_home,services,home,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very good,medium,medium,very low,very low,good,0,9,10,0
+GP,M,18,R,LE3,A,secondary education,higher education,other,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,low,very high,medium,high,very bad,13,17,17,17
+GP,M,17,U,GT3,T,secondary education,primary education (4th grade),services,other,other,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,yes,excellent,high,high,medium,high,excellent,2,9,9,10
+GP,F,18,R,GT3,T,higher education,higher education,teacher,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,no,very good,medium,high,low,low,very good,8,12,10,11
+GP,M,18,U,GT3,T,higher education,5th to 9th grade,health,other,reputation,father,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,excellent,high,very high,very low,medium,excellent,10,10,9,10
+GP,F,18,R,GT3,T,5th to 9th grade,primary education (4th grade),other,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,no,no,yes,no,yes,yes,very good,medium,very high,very low,low,good,0,6,0,0
+GP,F,19,U,GT3,T,secondary education,secondary education,other,services,home,other,<15 min.,2 to 5 hours,2,no,yes,yes,yes,yes,yes,yes,no,very good,medium,very high,medium,medium,excellent,15,9,9,9
+GP,F,18,U,GT3,T,5th to 9th grade,secondary education,other,services,reputation,father,<15 min.,>10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very good,very high,very high,very low,medium,bad,4,15,14,14
+GP,F,18,U,LE3,T,primary education (4th grade),primary education (4th grade),other,other,home,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,no,yes,no,no,very good,high,medium,very low,very low,good,2,11,11,11
+GP,M,17,R,GT3,T,primary education (4th grade),5th to 9th grade,at_home,at_home,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,no,yes,no,yes,good,very high,low,low,low,very bad,2,15,14,14
+GP,F,17,U,GT3,T,5th to 9th grade,higher education,at_home,health,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,very good,medium,medium,very low,very low,very bad,2,10,10,10
+GP,F,17,U,LE3,T,5th to 9th grade,5th to 9th grade,services,other,course,mother,15 to 30 min.,2 to 5 hours,0,yes,yes,yes,no,yes,yes,yes,yes,very good,high,high,low,medium,excellent,6,12,12,12
+GP,F,18,R,GT3,A,secondary education,5th to 9th grade,other,services,home,mother,15 to 30 min.,2 to 5 hours,0,no,no,no,no,no,no,yes,yes,very good,very low,very low,very low,very low,excellent,75,10,9,9
+GP,M,18,U,GT3,T,higher education,higher education,teacher,services,home,mother,15 to 30 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,no,good,low,high,very low,high,good,22,9,9,9
+GP,F,18,U,GT3,T,higher education,higher education,health,health,reputation,father,<15 min.,2 to 5 hours,1,yes,yes,no,yes,yes,yes,yes,yes,bad,high,high,very low,very low,very good,15,9,8,8
+GP,M,18,U,LE3,T,higher education,secondary education,teacher,services,course,mother,15 to 30 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,no,very good,low,medium,very low,low,very bad,8,10,11,10
+GP,M,17,U,LE3,A,higher education,primary education (4th grade),services,other,home,mother,15 to 30 min.,<2 hours,0,no,no,yes,yes,yes,yes,yes,yes,very good,very high,high,low,high,excellent,30,8,8,8
+GP,M,17,U,LE3,A,secondary education,5th to 9th grade,teacher,services,home,mother,<15 min.,<2 hours,1,no,no,no,no,yes,yes,yes,no,very good,high,high,medium,high,good,19,11,9,10
+GP,F,18,R,LE3,T,primary education (4th grade),primary education (4th grade),at_home,other,reputation,mother,15 to 30 min.,>10 hours,0,no,yes,yes,yes,yes,yes,no,no,excellent,low,low,very low,very low,good,1,12,12,12
+GP,F,18,U,GT3,T,primary education (4th grade),primary education (4th grade),other,other,home,mother,15 to 30 min.,2 to 5 hours,0,yes,no,no,yes,yes,yes,yes,no,excellent,high,high,very low,very low,very good,4,8,9,10
+GP,F,17,U,GT3,T,5th to 9th grade,5th to 9th grade,other,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,no,yes,yes,no,excellent,high,very high,very low,low,excellent,4,10,9,11
+GP,M,17,U,GT3,T,primary education (4th grade),primary education (4th grade),other,other,reputation,father,<15 min.,2 to 5 hours,0,no,no,yes,no,no,yes,yes,no,very good,medium,medium,very low,low,very good,2,12,10,11
+GP,F,18,U,GT3,T,5th to 9th grade,5th to 9th grade,at_home,at_home,other,mother,<15 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,medium,medium,very low,low,bad,5,18,18,19
+GP,F,17,U,GT3,T,primary education (4th grade),primary education (4th grade),services,teacher,reputation,mother,<15 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,medium,medium,very low,very low,good,6,13,12,12
+GP,M,18,U,GT3,T,5th to 9th grade,primary education (4th grade),services,services,reputation,mother,<15 min.,5 to 10 hours,0,no,no,yes,yes,yes,yes,yes,no,very good,low,high,very low,medium,bad,6,15,14,14
+GP,M,18,U,LE3,A,higher education,higher education,teacher,teacher,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,excellent,high,medium,very low,very low,bad,9,15,13,15
+GP,M,18,U,GT3,T,higher education,5th to 9th grade,teacher,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very good,medium,low,very low,high,excellent,11,12,11,11
+GP,F,17,U,GT3,T,higher education,secondary education,health,services,reputation,mother,<15 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,low,low,very low,low,good,0,15,15,15
+GP,F,18,U,LE3,T,5th to 9th grade,primary education (4th grade),services,at_home,reputation,mother,<15 min.,2 to 5 hours,1,no,no,no,no,yes,yes,yes,yes,excellent,high,medium,very low,very low,excellent,12,12,12,13
+GP,F,17,R,LE3,T,secondary education,primary education (4th grade),services,other,reputation,mother,15 to 30 min.,>10 hours,0,no,yes,yes,no,yes,yes,no,no,good,very low,low,very low,very low,good,6,18,18,18
+GP,M,18,R,LE3,T,secondary education,5th to 9th grade,services,other,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,excellent,high,low,very low,very low,very good,8,14,13,14
+GP,M,17,U,GT3,T,secondary education,secondary education,health,other,home,mother,<15 min.,<2 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,high,medium,very low,medium,excellent,4,14,12,11
+GP,F,19,U,GT3,T,higher education,higher education,health,other,reputation,other,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,bad,medium,high,low,medium,bad,0,10,9,0
+GP,F,18,U,LE3,T,higher education,secondary education,other,other,home,other,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,very good,high,very high,very low,low,bad,10,10,8,8
+GP,F,18,U,GT3,T,higher education,secondary education,other,other,reputation,father,<15 min.,>10 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,medium,medium,very low,very low,good,0,14,13,14
+GP,M,18,U,LE3,T,higher education,higher education,teacher,teacher,home,mother,<15 min.,<2 hours,0,no,yes,yes,no,yes,yes,yes,yes,very bad,high,low,low,low,very bad,5,16,15,16
+GP,F,18,U,LE3,A,higher education,higher education,health,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,yes,very good,low,high,very low,very low,very good,14,12,10,11
+GP,M,17,U,LE3,T,higher education,higher education,other,teacher,home,father,15 to 30 min.,<2 hours,0,no,no,yes,no,yes,yes,yes,no,very good,very low,very low,low,low,excellent,0,11,11,10
+GP,F,17,U,GT3,T,higher education,5th to 9th grade,other,other,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,medium,medium,very low,very low,good,0,15,12,14
+GP,F,17,U,GT3,T,secondary education,5th to 9th grade,health,health,reputation,father,<15 min.,>10 hours,0,no,yes,yes,yes,no,yes,yes,no,excellent,low,low,very low,low,excellent,0,17,17,18
+GP,M,19,U,GT3,T,secondary education,secondary education,other,other,home,other,<15 min.,2 to 5 hours,1,no,yes,no,yes,yes,yes,yes,yes,very good,high,high,very low,very low,good,20,15,14,13
+GP,F,18,U,GT3,T,5th to 9th grade,higher education,services,at_home,reputation,other,<15 min.,2 to 5 hours,1,no,yes,yes,yes,yes,yes,yes,no,very good,high,medium,very low,very low,good,8,14,12,12
+GP,M,20,U,GT3,A,secondary education,5th to 9th grade,services,other,course,other,<15 min.,<2 hours,0,no,no,no,yes,yes,yes,no,no,excellent,very high,medium,very low,very low,excellent,0,17,18,18
+GP,M,19,U,GT3,T,higher education,higher education,teacher,services,reputation,other,15 to 30 min.,<2 hours,1,no,yes,yes,no,yes,yes,yes,yes,very good,medium,high,very low,very low,very good,38,8,9,8
+GP,M,19,R,GT3,T,secondary education,secondary education,other,services,reputation,father,<15 min.,2 to 5 hours,1,no,no,no,yes,yes,yes,no,yes,very good,very high,medium,very low,low,excellent,0,15,12,12
+GP,F,19,U,LE3,T,primary education (4th grade),primary education (4th grade),at_home,other,reputation,other,<15 min.,2 to 5 hours,1,yes,yes,no,yes,no,yes,yes,no,very good,high,medium,very low,medium,good,18,12,10,10
+GP,F,19,U,LE3,T,primary education (4th grade),5th to 9th grade,services,services,home,other,<15 min.,2 to 5 hours,1,no,no,no,yes,no,yes,no,yes,very good,low,high,low,low,good,0,9,9,0
+GP,F,19,U,GT3,T,5th to 9th grade,primary education (4th grade),at_home,other,other,other,30 min. to 1 hour,2 to 5 hours,0,no,yes,no,no,yes,no,yes,yes,good,high,very low,very low,very low,bad,20,14,12,13
+GP,M,19,U,GT3,T,primary education (4th grade),5th to 9th grade,other,services,course,other,<15 min.,2 to 5 hours,1,no,no,no,no,no,yes,yes,no,very good,very high,low,low,low,very good,3,13,11,11
+GP,F,19,U,LE3,T,secondary education,5th to 9th grade,services,other,reputation,other,15 to 30 min.,2 to 5 hours,1,no,yes,yes,no,no,yes,yes,yes,very good,low,low,very low,low,very bad,22,13,10,11
+GP,F,19,U,GT3,T,primary education (4th grade),primary education (4th grade),at_home,health,home,other,<15 min.,5 to 10 hours,2,no,no,no,no,no,yes,yes,yes,very good,very low,low,very low,very low,good,14,15,13,13
+GP,F,19,R,GT3,T,5th to 9th grade,secondary education,other,other,reputation,other,<15 min.,5 to 10 hours,1,no,no,no,no,yes,yes,yes,yes,very good,very low,low,very low,very low,good,40,13,11,11
+GP,F,18,U,GT3,T,5th to 9th grade,primary education (4th grade),services,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,excellent,medium,medium,very low,low,very bad,0,8,8,0
+GP,F,18,U,GT3,T,higher education,secondary education,other,other,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very good,medium,high,very low,very low,excellent,9,9,10,9
+GP,F,17,R,GT3,T,secondary education,higher education,at_home,services,course,father,<15 min.,5 to 10 hours,0,no,yes,yes,yes,no,yes,yes,no,very good,medium,high,low,very high,excellent,0,11,11,10
+GP,F,18,U,GT3,T,higher education,higher education,teacher,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,high,high,medium,medium,excellent,2,11,11,11
+GP,F,17,U,GT3,A,higher education,secondary education,services,services,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,excellent,low,low,very low,low,excellent,23,13,13,13
+GP,F,17,U,GT3,T,5th to 9th grade,5th to 9th grade,other,other,course,mother,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,no,yes,very good,low,low,very low,very low,good,12,11,9,9
+GP,F,17,R,LE3,T,5th to 9th grade,5th to 9th grade,services,services,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,good,medium,low,low,low,good,3,11,11,11
+GP,F,17,U,GT3,T,secondary education,primary education (4th grade),services,services,course,father,<15 min.,5 to 10 hours,0,no,yes,no,no,no,yes,yes,no,good,high,medium,low,medium,excellent,1,12,14,15
+GP,F,17,U,LE3,T,none,5th to 9th grade,at_home,at_home,home,father,15 to 30 min.,5 to 10 hours,0,no,no,no,no,yes,yes,yes,no,good,medium,medium,low,medium,bad,0,16,15,15
+GP,M,18,U,GT3,T,higher education,higher education,other,other,course,mother,<15 min.,5 to 10 hours,0,no,no,no,yes,yes,yes,yes,no,very good,medium,medium,low,low,good,3,9,12,11
+GP,M,17,U,GT3,T,secondary education,secondary education,other,services,reputation,mother,<15 min.,<2 hours,0,no,no,no,yes,no,yes,yes,no,very good,medium,very high,medium,very high,excellent,3,14,15,16
+GP,M,17,R,GT3,T,5th to 9th grade,5th to 9th grade,services,other,course,mother,>1 hour,<2 hours,0,no,yes,no,no,yes,yes,yes,no,very good,high,very high,very high,very high,very good,8,11,10,10
+GP,F,17,U,GT3,T,higher education,higher education,teacher,services,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,no,excellent,high,high,very low,medium,very good,7,10,9,9
+GP,F,17,U,GT3,T,higher education,higher education,teacher,teacher,course,mother,15 to 30 min.,5 to 10 hours,0,no,yes,yes,no,no,yes,yes,yes,very good,medium,medium,very low,low,very good,4,14,14,14
+GP,M,18,U,LE3,T,5th to 9th grade,5th to 9th grade,other,other,course,mother,<15 min.,>10 hours,0,no,yes,no,yes,yes,yes,yes,no,very good,very high,very high,low,high,excellent,2,9,8,8
+GP,F,17,R,GT3,T,5th to 9th grade,higher education,at_home,other,course,father,<15 min.,5 to 10 hours,0,no,yes,no,no,yes,yes,yes,yes,very good,high,medium,very low,very low,excellent,7,12,14,14
+GP,F,18,U,GT3,T,secondary education,secondary education,services,services,home,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,no,excellent,medium,high,very low,very low,very good,0,7,0,0
+GP,F,18,U,LE3,T,5th to 9th grade,5th to 9th grade,other,other,home,other,<15 min.,2 to 5 hours,0,no,no,no,yes,no,yes,yes,yes,very good,medium,medium,very low,very low,bad,0,8,8,0
+GP,F,18,R,GT3,T,5th to 9th grade,5th to 9th grade,at_home,other,course,mother,15 to 30 min.,>10 hours,0,no,no,no,yes,yes,yes,no,no,very good,high,high,very low,very low,very good,0,10,9,0
+GP,F,17,U,GT3,T,secondary education,higher education,services,other,course,mother,<15 min.,5 to 10 hours,0,no,no,no,no,yes,yes,yes,no,very good,high,very high,very low,medium,excellent,16,16,15,15
+GP,F,19,R,GT3,A,secondary education,primary education (4th grade),services,at_home,home,other,<15 min.,5 to 10 hours,1,no,no,yes,no,yes,yes,no,no,excellent,high,medium,very low,low,excellent,12,14,13,13
+GP,F,17,U,GT3,T,secondary education,5th to 9th grade,other,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,yes,very good,medium,low,low,medium,bad,0,7,8,0
+GP,F,18,U,LE3,T,secondary education,secondary education,services,services,home,mother,<15 min.,>10 hours,0,no,yes,no,no,yes,yes,yes,no,excellent,medium,medium,very low,very low,very bad,7,16,15,17
+GP,F,17,R,GT3,A,secondary education,5th to 9th grade,other,other,home,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,medium,medium,low,medium,bad,4,9,10,10
+GP,F,19,U,GT3,T,5th to 9th grade,primary education (4th grade),services,services,home,other,<15 min.,5 to 10 hours,1,no,no,yes,yes,yes,yes,yes,yes,very good,medium,high,very low,medium,good,4,11,12,11
+GP,M,18,U,GT3,T,higher education,higher education,teacher,services,home,father,<15 min.,2 to 5 hours,1,no,yes,no,yes,yes,yes,yes,no,very good,medium,medium,low,low,bad,0,10,10,0
+GP,M,18,U,LE3,T,secondary education,higher education,services,other,home,mother,<15 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,yes,very good,medium,medium,very low,medium,excellent,11,16,15,15
+GP,F,17,U,GT3,A,5th to 9th grade,5th to 9th grade,at_home,at_home,home,father,<15 min.,2 to 5 hours,1,no,yes,no,no,yes,yes,yes,yes,good,medium,very low,very low,low,very good,0,9,8,0
+GP,F,18,U,GT3,T,5th to 9th grade,secondary education,at_home,other,course,mother,<15 min.,5 to 10 hours,0,no,yes,no,no,yes,yes,yes,no,very good,medium,medium,very low,low,good,4,11,10,10
+GP,F,18,U,GT3,T,secondary education,5th to 9th grade,other,services,other,mother,<15 min.,5 to 10 hours,0,no,no,no,no,yes,yes,yes,yes,excellent,high,medium,low,medium,very bad,7,13,13,14
+GP,M,18,R,GT3,T,higher education,secondary education,teacher,services,course,mother,<15 min.,5 to 10 hours,0,no,no,no,no,yes,yes,yes,yes,excellent,medium,low,very low,low,very good,9,16,15,16
+GP,M,18,U,GT3,T,higher education,secondary education,teacher,other,course,mother,<15 min.,5 to 10 hours,0,no,yes,yes,no,yes,yes,yes,yes,excellent,high,very high,low,medium,excellent,0,10,10,9
+GP,F,17,U,GT3,T,higher education,secondary education,health,other,reputation,mother,<15 min.,5 to 10 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very good,high,medium,very low,medium,very good,0,13,15,15
+MS,M,18,R,GT3,T,secondary education,5th to 9th grade,other,other,course,mother,15 to 30 min.,<2 hours,1,no,yes,no,no,no,yes,yes,no,bad,very high,very high,very high,very high,excellent,10,11,13,13
+MS,M,19,R,GT3,T,primary education (4th grade),primary education (4th grade),other,services,home,other,30 min. to 1 hour,2 to 5 hours,3,no,no,no,no,yes,yes,yes,no,excellent,high,high,medium,medium,bad,8,8,7,8
+MS,M,17,U,GT3,T,secondary education,secondary education,health,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,very high,high,low,medium,good,2,13,13,13
+MS,M,18,U,LE3,T,primary education (4th grade),secondary education,at_home,services,course,mother,<15 min.,<2 hours,1,no,no,no,no,yes,no,yes,yes,very good,medium,medium,low,medium,good,7,8,7,8
+MS,M,19,R,GT3,T,primary education (4th grade),primary education (4th grade),other,other,home,other,30 min. to 1 hour,<2 hours,1,no,yes,no,no,yes,yes,yes,no,very good,high,high,medium,medium,excellent,4,8,8,8
+MS,M,17,R,GT3,T,higher education,secondary education,services,other,home,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,no,yes,yes,yes,very good,very high,very high,very low,medium,bad,4,13,11,11
+MS,F,18,U,GT3,T,secondary education,secondary education,services,services,course,father,<15 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,no,yes,excellent,medium,high,very low,very low,excellent,0,10,9,9
+MS,F,17,R,GT3,T,higher education,higher education,teacher,services,other,father,15 to 30 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,no,very good,medium,medium,very low,low,excellent,4,12,13,13
+MS,F,17,U,LE3,A,secondary education,5th to 9th grade,services,other,reputation,mother,15 to 30 min.,2 to 5 hours,0,no,no,no,no,yes,yes,no,yes,very bad,low,medium,very low,low,excellent,2,12,12,11
+MS,M,18,U,LE3,T,primary education (4th grade),primary education (4th grade),other,services,home,father,15 to 30 min.,<2 hours,0,no,no,no,no,no,yes,yes,yes,good,medium,low,very low,low,good,4,10,10,10
+MS,F,18,U,LE3,T,primary education (4th grade),primary education (4th grade),at_home,services,course,father,15 to 30 min.,5 to 10 hours,0,no,no,no,no,yes,yes,yes,no,excellent,medium,low,very low,very low,very good,0,18,16,16
+MS,F,18,R,LE3,A,primary education (4th grade),higher education,at_home,other,course,mother,30 min. to 1 hour,2 to 5 hours,0,no,no,no,no,yes,yes,no,yes,very good,medium,high,very low,high,excellent,0,13,13,13
+MS,M,18,R,LE3,T,primary education (4th grade),primary education (4th grade),at_home,other,other,mother,15 to 30 min.,2 to 5 hours,1,no,no,no,yes,no,no,no,no,very good,high,medium,low,medium,excellent,2,13,12,12
+MS,F,18,U,GT3,T,secondary education,secondary education,services,services,other,mother,15 to 30 min.,2 to 5 hours,0,no,yes,no,no,yes,yes,yes,yes,very good,medium,low,very low,medium,good,0,11,11,10
+MS,F,17,U,LE3,T,higher education,higher education,at_home,at_home,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,yes,yes,yes,yes,bad,medium,high,very low,very low,very bad,0,16,15,15
+MS,F,17,R,GT3,T,primary education (4th grade),5th to 9th grade,other,services,course,father,15 to 30 min.,2 to 5 hours,0,no,no,no,no,no,yes,no,no,good,low,low,very low,low,good,0,12,11,12
+MS,M,18,R,GT3,T,primary education (4th grade),secondary education,at_home,other,course,mother,15 to 30 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,no,no,good,medium,high,low,high,good,4,10,10,10
+MS,M,18,U,LE3,T,higher education,higher education,teacher,services,other,mother,15 to 30 min.,5 to 10 hours,0,no,no,yes,no,yes,yes,yes,yes,very good,low,low,low,low,excellent,0,13,13,13
+MS,F,17,R,GT3,T,primary education (4th grade),primary education (4th grade),other,services,reputation,mother,30 min. to 1 hour,<2 hours,1,no,yes,yes,no,yes,yes,yes,yes,excellent,low,very low,very low,low,very bad,0,7,6,0
+MS,F,18,U,GT3,T,5th to 9th grade,secondary education,at_home,services,course,father,15 to 30 min.,<2 hours,0,no,yes,yes,no,yes,yes,yes,yes,excellent,low,medium,very low,low,very good,0,11,10,10
+MS,F,18,R,GT3,T,higher education,higher education,other,teacher,other,father,30 min. to 1 hour,2 to 5 hours,0,no,yes,yes,no,no,yes,yes,yes,good,low,low,high,low,excellent,10,14,12,11
+MS,F,19,U,LE3,T,secondary education,5th to 9th grade,services,services,home,other,15 to 30 min.,2 to 5 hours,2,no,no,no,yes,yes,yes,no,yes,good,low,low,very low,very low,good,4,7,7,9
+MS,M,18,R,LE3,T,primary education (4th grade),5th to 9th grade,at_home,services,other,father,30 min. to 1 hour,<2 hours,0,no,yes,yes,yes,yes,no,yes,yes,very good,medium,medium,low,medium,good,3,14,12,12
+MS,F,17,U,GT3,T,5th to 9th grade,5th to 9th grade,other,at_home,home,mother,<15 min.,5 to 10 hours,0,no,no,no,yes,yes,yes,no,yes,good,high,medium,very low,very low,good,8,13,11,11
+MS,F,17,R,GT3,T,primary education (4th grade),5th to 9th grade,other,other,course,mother,<15 min.,<2 hours,0,no,no,no,yes,yes,yes,yes,no,good,very high,very high,very low,medium,very bad,14,6,5,5
+MS,F,18,R,LE3,T,higher education,higher education,other,other,reputation,mother,15 to 30 min.,5 to 10 hours,0,no,no,no,no,yes,yes,yes,no,excellent,high,high,very low,very low,very bad,0,19,18,19
+MS,F,18,R,GT3,T,primary education (4th grade),primary education (4th grade),other,other,home,mother,>1 hour,5 to 10 hours,0,no,no,no,no,yes,yes,yes,no,very good,medium,low,very low,low,very good,2,8,8,10
+MS,F,20,U,GT3,T,higher education,5th to 9th grade,health,other,course,other,15 to 30 min.,5 to 10 hours,2,no,yes,yes,no,no,yes,yes,yes,excellent,high,medium,very low,very low,good,4,15,14,15
+MS,F,18,R,LE3,T,higher education,higher education,teacher,services,course,mother,<15 min.,2 to 5 hours,0,no,no,yes,yes,yes,yes,yes,no,excellent,high,medium,medium,high,bad,4,8,9,10
+MS,F,18,U,GT3,T,secondary education,secondary education,other,other,home,mother,<15 min.,2 to 5 hours,0,no,no,yes,no,yes,yes,yes,yes,very good,very low,medium,very low,low,very bad,0,15,15,15
+MS,F,17,R,GT3,T,secondary education,primary education (4th grade),at_home,other,reputation,mother,<15 min.,2 to 5 hours,0,no,yes,yes,yes,no,yes,yes,no,very good,very high,high,low,medium,very bad,17,10,10,10
+MS,M,18,U,GT3,T,higher education,higher education,teacher,teacher,home,father,<15 min.,2 to 5 hours,0,no,no,yes,yes,no,yes,yes,no,good,low,high,very low,high,bad,4,15,14,14
+MS,M,18,R,GT3,T,5th to 9th grade,primary education (4th grade),other,other,other,mother,15 to 30 min.,<2 hours,0,no,no,no,yes,no,yes,yes,yes,very good,high,medium,very low,medium,excellent,5,7,6,7
+MS,M,17,U,GT3,T,5th to 9th grade,secondary education,other,services,home,father,15 to 30 min.,2 to 5 hours,0,no,no,no,yes,yes,yes,yes,no,very good,high,medium,very low,very low,good,2,11,11,10
+MS,M,19,R,GT3,T,primary education (4th grade),primary education (4th grade),other,services,other,mother,15 to 30 min.,<2 hours,1,no,no,no,no,yes,yes,no,no,very good,medium,low,very low,medium,excellent,0,6,5,0
+MS,M,18,R,GT3,T,higher education,5th to 9th grade,other,other,home,father,15 to 30 min.,<2 hours,1,no,no,yes,no,yes,yes,no,no,excellent,high,medium,high,medium,good,14,6,5,5
+MS,F,18,R,GT3,T,5th to 9th grade,5th to 9th grade,at_home,other,other,mother,15 to 30 min.,5 to 10 hours,0,no,no,yes,no,yes,yes,no,no,excellent,medium,medium,very low,medium,very good,2,10,9,10
+MS,F,18,R,GT3,T,higher education,higher education,teacher,at_home,reputation,mother,30 min. to 1 hour,<2 hours,0,no,yes,yes,yes,yes,yes,yes,yes,very good,high,medium,low,low,excellent,7,6,5,6
+MS,F,19,R,GT3,T,5th to 9th grade,secondary education,services,other,course,mother,<15 min.,5 to 10 hours,1,no,no,no,yes,no,yes,yes,no,excellent,high,low,very low,low,excellent,0,7,5,0
+MS,F,18,U,LE3,T,secondary education,primary education (4th grade),teacher,services,course,mother,<15 min.,2 to 5 hours,0,no,yes,yes,no,yes,yes,yes,no,very good,medium,high,very low,very low,very bad,0,7,9,8
+MS,F,18,U,GT3,T,primary education (4th grade),primary education (4th grade),other,other,course,mother,15 to 30 min.,2 to 5 hours,1,no,no,no,yes,yes,yes,no,no,very bad,very low,very low,very low,very low,excellent,0,6,5,0
+MS,M,20,U,LE3,A,5th to 9th grade,5th to 9th grade,services,services,course,other,<15 min.,2 to 5 hours,2,no,yes,yes,no,yes,yes,no,no,excellent,very high,high,high,very high,very good,11,9,9,9
+MS,M,17,U,LE3,T,secondary education,primary education (4th grade),services,services,course,mother,15 to 30 min.,<2 hours,0,no,no,no,no,no,yes,yes,no,bad,high,very high,medium,high,bad,3,14,16,16
+MS,M,21,R,GT3,T,primary education (4th grade),primary education (4th grade),other,other,course,other,<15 min.,<2 hours,3,no,no,no,no,no,yes,no,no,excellent,very high,medium,medium,medium,good,3,10,8,7
+MS,M,18,R,LE3,T,secondary education,5th to 9th grade,services,other,course,mother,30 min. to 1 hour,<2 hours,0,no,no,no,no,no,yes,yes,no,very good,high,very low,medium,high,excellent,0,11,12,10
+MS,M,19,U,LE3,T,primary education (4th grade),primary education (4th grade),other,at_home,course,father,<15 min.,<2 hours,0,no,no,no,no,yes,yes,yes,no,good,low,medium,medium,medium,excellent,5,8,9,9
