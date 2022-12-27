@@ -1,1 +1,0 @@
-The value of x is 5. The value of y is 6.
