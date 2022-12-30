@@ -1,7 +1,6 @@
 package Week5_CaseStudy.SystemUser;
 
 import java.util.InputMismatchException;
-import java.util.List;
 import java.util.Scanner;
 
 import Week5_CaseStudy.Main;
@@ -9,10 +8,15 @@ import Week5_CaseStudy.Models.RentalProperty;
 
 public class Admin extends SystemUser {
     final String role = "Admin";
+    final Scanner scanner;
+
+    public Admin(Scanner scanner) {
+        this.scanner = scanner;
+    }
 
     // Auth
     @Override
-    public void login(Scanner scanner) {
+    public void login() {
         System.out.println("\nWelcome Admin!");
         while (true) {
             Main.showDivider();
@@ -38,22 +42,22 @@ public class Admin extends SystemUser {
             }
             switch (choice) {
                 case 1:
-                    addLandlord(scanner);
+                    addLandlord();
                     break;
                 case 2:
-                    updateLandlord(scanner);
+                    updateLandlord();
                     break;
                 case 3:
-                    deleteLandlord(scanner);
+                    deleteLandlord();
                     break;
                 case 4:
-                    addTenant(scanner);
+                    addTenant();
                     break;
                 case 5:
-                    updateTenant(null);
+                    updateTenant();
                     break;
                 case 6:
-                    deleteTenant(null);
+                    deleteTenant();
                     break;
                 case 7:
                     System.out.println(generateReport());
@@ -66,6 +70,8 @@ public class Admin extends SystemUser {
                     scanner.nextLine();
                     continue;
             }
+            if (choice == 8)
+                break;
         }
     }
 
@@ -75,7 +81,7 @@ public class Admin extends SystemUser {
     }
 
     // Landlord
-    public void addLandlord(Scanner scanner) {
+    public void addLandlord() {
         Main.showDivider();
         scanner.nextLine();
         System.out.println("Enter your name: ");
@@ -98,12 +104,12 @@ public class Admin extends SystemUser {
         String rentalCharge = scanner.next();
 
         Landlord landlord = new Landlord(name, new RentalProperty(numberOfRooms, levelOfRoom, location, lengthOfStay),
-                contactDetails, rentalCharge);
+                contactDetails, rentalCharge, scanner);
         Main.addLandlord(landlord);
     }
 
-    public void updateLandlord(Scanner scanner) {
-        if (showLandlords() == 404)
+    public void updateLandlord() {
+        if (Main.showLandlords(role) == 404)
             return;
         System.out.println("\nEnter the number of the landlord you want to update: ");
         int choice = scanner.nextInt();
@@ -117,8 +123,8 @@ public class Admin extends SystemUser {
         landlord.setRentalCharge(scanner.nextLine());
     }
 
-    public void deleteLandlord(Scanner scanner) {
-        if (showLandlords() == 404)
+    public void deleteLandlord() {
+        if (Main.showLandlords(role) == 404)
             return;
         System.out.println("\nEnter the number of the landlord you want to delete: ");
         int choice = scanner.nextInt();
@@ -128,7 +134,7 @@ public class Admin extends SystemUser {
     }
 
     // Tenants
-    public void addTenant(Scanner scanner) {
+    public void addTenant() {
         Main.showDivider();
         scanner.nextLine();
         while (true) {
@@ -145,29 +151,35 @@ public class Admin extends SystemUser {
 
     }
 
-    public void updateTenant(Tenant tenant) {
-
+    public void updateTenant() {
+        if (Main.showLandlords(role) == 404)
+            return;
+        System.out.println("\nEnter the number of the landlord you want to update: ");
+        int choice = scanner.nextInt();
+        scanner.nextLine();
+        Landlord landlord = Main.getLandlordData(role).get(choice - 1);
+        System.out.println("Enter your name: ");
+        landlord.setName(scanner.nextLine());
+        System.out.println("Enter your contact details: ");
+        landlord.setContactDetails(scanner.nextLine());
+        System.out.println("Enter your rental charge: ");
+        landlord.setRentalCharge(scanner.nextLine());
     }
 
-    public void deleteTenant(String id) {
+    public void deleteTenant() {
+        if (Main.showLandlords(role) == 404)
+            return;
+        System.out.println("\nEnter the number of the tenant you want to delete: ");
+        int choice = scanner.nextInt();
+        scanner.nextLine();
+        Main.getLandlordData(role).remove(choice - 1);
+        System.out.println("Tenant Deleted Successfully!");
     }
 
     // Generate Reports
     public RentalProperty generateReport() {
+        System.out.println("Report Generated Successfully.");
         return new RentalProperty(1, 1, "One", 1);
     }
 
-    public int showLandlords() {
-        List<Landlord> landlords = Main.getLandlordData(role);
-        Main.showDivider();
-        if (landlords.size() == 0) {
-            System.out.println("No Landlords Found!");
-            return 404;
-        }
-        System.out.println("Landlord Details:");
-        for (int i = 0; i < landlords.size(); i++) {
-            System.out.println((i + 1) + ") " + landlords.get(i).getName());
-        }
-        return 0;
-    }
 }

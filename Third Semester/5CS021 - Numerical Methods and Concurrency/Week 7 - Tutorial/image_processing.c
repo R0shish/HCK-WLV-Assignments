@@ -33,9 +33,9 @@ int main()
     image[25] = 25;
     image[26] = 75;
 
-    image[28] = 100;
-    image[29] = 40;
-    image[30] = 40;
+    image[28] = 0;
+    image[29] = 255;
+    image[30] = 0;
 
     error = lodepng_encode32_file("output.png", image, width, height);
 
