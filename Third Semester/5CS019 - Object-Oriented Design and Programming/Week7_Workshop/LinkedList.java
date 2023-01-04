@@ -8,6 +8,17 @@ class Node {
 class LinkedList {
     Node head;
 
+    void insert(String s) {
+        Node node = new Node();
+        node.data = s;
+        node.next = null;
+        Node n = head;
+        while (n.next != null) {
+            n = n.next;
+        }
+        n.next = node;
+    }
+
     void insertAt(int index, String s) {
         Node node = new Node();
         node.data = s;
@@ -59,14 +70,13 @@ class LinkedList {
 }
 
 class Main {
-
     public static void main(String[] args) {
         LinkedList linkedList = new LinkedList();
 
         linkedList.insertAt(0, "First");
         linkedList.insertAt(1, "Second");
         linkedList.insertAtStart("AtStart");
-        linkedList.insertAt(3, "Third");
+        linkedList.insert("Third");
         System.out.println("Before Deleting: ");
         linkedList.show();
 
