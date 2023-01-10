@@ -9,33 +9,36 @@ public class Stack {
         stack.add(e);
     }
 
-    void pop() throws Exception {
+    void pop() {
         if (stack.isEmpty()) {
-            throw new Exception("Error: Stack Underflow");
+            System.out.println("Error: Empty Stack");
+            return;
         }
         stack.remove(stack.size() - 1);
     }
 
-    int peek() throws Exception {
+    Integer peek() {
         if (stack.isEmpty()) {
-            throw new Exception("Error: Empty Stack");
+            System.out.println("Error: Empty Stack");
+            return null;
         }
         return stack.get(stack.size() - 1);
     }
 }
 
 class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Stack stack = new Stack();
-        stack.push(7);
-        stack.push(8);
+        stack.push(12);
+        stack.pop();
+        stack.push(21);
+        stack.push(32);
+        System.out.println(stack.peek());
         stack.pop();
         System.out.println(stack.peek());
-        stack.push(0);
-        stack.push(1);
+        stack.push(15);
+        stack.push(17);
         stack.pop();
-        System.out.println(stack.peek());
-        stack.push(2);
         System.out.println(stack.peek());
     }
 }

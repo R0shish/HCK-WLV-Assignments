@@ -9,32 +9,35 @@ public class Queue {
         queue.add(e);
     }
 
-    void dequeue() throws Exception {
+    void dequeue() {
         if (queue.isEmpty()) {
-            throw new Exception("Error: Queue Underflow");
+            System.out.println("Error: Empty Queue");
+            return;
         }
         queue.remove(0);
     }
 
-    int peek() throws Exception {
+    Integer peek() {
         if (queue.isEmpty()) {
-            throw new Exception("Error: Empty Queue");
+            System.out.println("Error: Empty Queue");
+            return null;
         }
         return queue.get(0);
     }
 }
 
 class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Queue queue = new Queue();
-        queue.enqueue(5);
-        queue.enqueue(6);
+        queue.enqueue(60);
         queue.dequeue();
+        queue.enqueue(24);
         System.out.println(queue.peek());
-        queue.enqueue(8);
         queue.dequeue();
+        queue.enqueue(67);
+        queue.enqueue(55);
         System.out.println(queue.peek());
-        queue.enqueue(10);
+        queue.dequeue();
         System.out.println(queue.peek());
     }
 }

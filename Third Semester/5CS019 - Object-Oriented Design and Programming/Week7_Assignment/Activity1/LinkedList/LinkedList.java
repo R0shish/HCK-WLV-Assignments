@@ -102,16 +102,14 @@ class Main {
 
     public static void main(String[] args) throws Exception {
         LinkedList linkedList = new LinkedList();
-        linkedList.insertLast(10);
-        linkedList.insertLast(20);
-        linkedList.insertLast(30);
+        linkedList.insertLast(2);
         linkedList.deleteFirst();
-        linkedList.insertFirst(5);
+        linkedList.insertFirst(1);
         linkedList.deleteLast();
-        linkedList.insertFirst(40);
-        linkedList.insertLast(50);
-        linkedList.insertMiddle(3, 35);
-        linkedList.deleteMiddle(4);
+        linkedList.insertFirst(0);
+        linkedList.insertLast(4);
+        linkedList.insertMiddle(2, 3);
+        linkedList.deleteMiddle(2);
         linkedList.display();
     }
 
