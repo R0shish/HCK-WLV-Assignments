@@ -2,4 +2,5 @@
 */*/*.class
 */*/*/*.class
 */*/*/*/*.class
-
+.classpath
+.project
