@@ -4,17 +4,16 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.Color;
+import javax.swing.JPanel;
 
 public class Frame {
 
 	private JFrame frame;
-	private JTextField txtFieldFirstName;
-	private JTextField txtFieldLastName;
+	private final JPanel panel = new JPanel();
 
 	/**
 	 * Launch the application.
@@ -44,49 +43,32 @@ public class Frame {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.getContentPane().setBackground(new Color(0, 0, 0));
+		frame.getContentPane().setBackground(new Color(255, 255, 255));
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
+		panel.setBounds(0, 0, 450, 272);
+		frame.getContentPane().add(panel);
+		panel.setLayout(null);
 
-		JLabel lblFirstName = new JLabel("First Name");
-		lblFirstName.setForeground(new Color(249, 255, 241));
-		lblFirstName.setBounds(59, 24, 78, 16);
-		frame.getContentPane().add(lblFirstName);
-
-		JLabel lbl_FN = new JLabel("");
-		lbl_FN.setForeground(new Color(248, 254, 242));
-		lbl_FN.setBounds(16, 215, 266, 16);
-		frame.getContentPane().add(lbl_FN);
-
-		txtFieldFirstName = new JTextField();
-		txtFieldFirstName.setBounds(135, 19, 130, 26);
-		frame.getContentPane().add(txtFieldFirstName);
-		txtFieldFirstName.setColumns(10);
-
-		JLabel lblLastName = new JLabel("Last Name");
-		lblLastName.setForeground(new Color(249, 255, 241));
-		lblLastName.setBounds(59, 57, 78, 16);
-		frame.getContentPane().add(lblLastName);
-
-		txtFieldLastName = new JTextField();
-		txtFieldLastName.setColumns(10);
-		txtFieldLastName.setBounds(135, 52, 130, 26);
-		frame.getContentPane().add(txtFieldLastName);
-
-		JLabel lbl_LN = new JLabel("");
-		lbl_LN.setForeground(new Color(248, 254, 242));
-		lbl_LN.setBounds(16, 243, 249, 16);
-		frame.getContentPane().add(lbl_LN);
-
-		JButton btnNewButton = new JButton("Submit");
+		JButton btnNewButton = new JButton("Sign In");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				lbl_FN.setText("First Name: " + txtFieldFirstName.getText());
-				lbl_LN.setText("Last Name: " + txtFieldLastName.getText());
+				new SignIn();
+				frame.setVisible(false);
+
 			}
 		});
-		btnNewButton.setBounds(135, 85, 117, 29);
-		frame.getContentPane().add(btnNewButton);
+		btnNewButton.setBounds(42, 134, 117, 29);
+		panel.add(btnNewButton);
+
+		JLabel lblNewLabel = new JLabel("Home Page");
+		lblNewLabel.setBounds(190, 71, 75, 16);
+		panel.add(lblNewLabel);
+
+		JButton btnNewButton_1 = new JButton("Sign Up");
+		btnNewButton_1.setBounds(293, 134, 117, 29);
+		panel.add(btnNewButton_1);
+		frame.setVisible(true);
 	}
 }
