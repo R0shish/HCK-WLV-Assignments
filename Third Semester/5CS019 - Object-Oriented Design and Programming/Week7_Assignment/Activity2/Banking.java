@@ -22,6 +22,10 @@ public class Banking {
             System.out.println("Account already exists!");
             return;
         }
+        if (amount < 0) {
+            System.out.println("Amount must not be negative!");
+            return;
+        }
         accounts.put(name, amount);
     }
 
