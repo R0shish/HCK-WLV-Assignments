@@ -4,12 +4,12 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 
-import course_management_system.util.Logo;
+import course_management_system.pages.SplashScreen;
+import course_management_system.util.CustomImage;
 
 public class App {
 
 	private JFrame frmHeraldCourseManagement;
-	
 
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -24,22 +24,19 @@ public class App {
 		});
 	}
 
-
 	public App() {
 		initialize();
 	}
-
 
 	private void initialize() {
 		frmHeraldCourseManagement = new JFrame();
 		frmHeraldCourseManagement.setTitle("Herald Course Management System");
 		frmHeraldCourseManagement.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frmHeraldCourseManagement.getContentPane().setLayout(null);	
-		frmHeraldCourseManagement.setSize(1480,720);
-		
-		Logo logo = new Logo();
-		
+		frmHeraldCourseManagement.getContentPane().setLayout(null);
+		frmHeraldCourseManagement.setSize(1480, 720);
+
+		CustomImage logo = new CustomImage("../assets/logo.png");
+
 		new SplashScreen(frmHeraldCourseManagement, logo);
-		
 	}
 }
