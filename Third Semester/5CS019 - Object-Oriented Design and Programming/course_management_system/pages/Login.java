@@ -121,7 +121,7 @@ public class Login extends JPanel {
 				String password = new String(passwordTxt.getPassword()).strip();
 
 				try {
-					String name = Auth.returnName(email, password);
+					String name = Auth.returnRole(email, password);
 					emailTxt.setText("");
 					passwordTxt.setText("");
 					new Dashboard(frame, name, login);

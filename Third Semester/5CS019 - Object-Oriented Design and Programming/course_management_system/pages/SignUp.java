@@ -20,7 +20,6 @@ import javax.swing.JTextField;
 import javax.swing.Timer;
 
 import course_management_system.auth.Auth;
-import course_management_system.exceptions.InvalidEmailException;
 import course_management_system.util.CustomImage;
 import course_management_system.util.Validator;
 
@@ -175,7 +174,8 @@ public class SignUp extends JPanel {
 
 						new Login(frame, logo);
 						signup.setVisible(false);
-					} catch (InvalidEmailException err) {
+					} catch (Exception err) {
+						System.out.println(err);
 						errorEmailLbl.setText(err.getMessage());
 					}
 				}

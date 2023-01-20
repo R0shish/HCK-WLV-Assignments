@@ -1,54 +1,45 @@
 package course_management_system.auth;
 
-import java.util.ArrayList;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 import course_management_system.exceptions.InvalidEmailException;
 import course_management_system.exceptions.InvalidPasswordException;
+import course_management_system.util.DatabaseManager;
 
-class Credential{
-	private final String name;
-	private final String email;
-	private final String password;
-	
-	public Credential(String name, String email, String password) {
-		this.name = name;
-		this.email = email;
-		this.password = password;
-	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public String getEmail() {
-		return email;
-	}
-	
-	public String getPassword() {
-		return password;
-	}
-}
 public class Auth {
-	static ArrayList<Credential> credential = new ArrayList<Credential>();
+	private static Statement stmt;
+	public Auth(DatabaseManager db) {
+		Auth.stmt = db.getStatement();
+	}
 	
-	public static String returnName(String email, String password) throws Exception {
-	    for (Credential c : credential) {
-	        if (c.getEmail().equals(email)) {
-	        	if (c.getPassword().equals(password))
-	        		return c.getName();
-	        	throw new InvalidPasswordException("Password not valid!");
+	  public static String returnRole(String email, String password) throws Exception {
+	        try {
+	            String sql = "SELECT name FROM auth WHERE email='" + email + "' AND password='" + password + "'";
+	            ResultSet rs = stmt.executeQuery(sql);
+	            if (rs.next()) {
+	                return rs.getString("name");
+	            } else {
+	                throw new InvalidPasswordException("Password not valid!");
+	            }
+	        } catch (SQLException e) {
+	            throw new InvalidEmailException("No user with this email found!");
 	        }
-	        	
 	    }
-	    throw new InvalidEmailException("No User with Email Found!");
-	}
 	
-	public static void addCredential(String name, String email, String password ) throws InvalidEmailException{
-		 for (Credential c : credential) {
-		        if (c.getEmail().equals(email)) {
-		        	throw new InvalidEmailException("Email already in use!");
-		        }
-		 }
-		 credential.add(new Credential(name, email, password));
-	}
-}
+	  public static void addCredential(String name, String email, String password) throws Exception {
+	        try {
+	            String sql = "SELECT email FROM auth WHERE email='" + email + "'";
+	            ResultSet rs = stmt.executeQuery(sql);
+	            if (rs.next()) {
+	                throw new InvalidEmailException("Email already in use!");
+	            } else {
+	            	sql = "INSERT INTO auth (name, email, password, role) VALUES ('" + name + "', '" + email + "', '" + password + "', 'Student')";
+	                stmt.executeUpdate(sql);
+	            }
+	        } catch (SQLException e) {
+	            e.printStackTrace();
+	        }
+	    }
+	 }

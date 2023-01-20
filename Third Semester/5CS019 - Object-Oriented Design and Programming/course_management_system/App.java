@@ -1,11 +1,14 @@
 package course_management_system;
 
 import java.awt.EventQueue;
+import java.sql.SQLException;
 
 import javax.swing.JFrame;
 
+import course_management_system.auth.Auth;
 import course_management_system.pages.SplashScreen;
 import course_management_system.util.CustomImage;
+import course_management_system.util.DatabaseManager;
 
 public class App {
 
@@ -34,6 +37,13 @@ public class App {
 		frmHeraldCourseManagement.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmHeraldCourseManagement.getContentPane().setLayout(null);
 		frmHeraldCourseManagement.setSize(1480, 720);
+
+		try {
+			DatabaseManager db = new DatabaseManager("jdbc:mysql://localhost:3306", "root", "");
+			new Auth(db);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 
 		CustomImage logo = new CustomImage("../assets/logo.png");
 
