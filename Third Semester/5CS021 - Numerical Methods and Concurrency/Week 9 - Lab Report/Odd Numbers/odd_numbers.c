@@ -4,7 +4,7 @@
 
 int diff, start = 1, finish;
 
-void *displayNumber(void *p)
+void *displayOddNumber(void *p)
 {
     for (int i = start; i <= finish; i++)
     {
@@ -29,7 +29,7 @@ int main()
         finish = diff;
         for (int i = 0; i < num; i++)
         {
-            pthread_create(&thrID[i], NULL, displayNumber, NULL);
+            pthread_create(&thrID[i], NULL, displayOddNumber, NULL);
         }
         for (int i = 0; i < num; i++)
         {

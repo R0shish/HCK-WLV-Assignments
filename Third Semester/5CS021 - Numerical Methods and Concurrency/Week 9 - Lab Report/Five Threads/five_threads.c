@@ -10,25 +10,25 @@ void *threadOne(void *p)
 void *threadTwo(void *p)
 {
     int i;
-    for (i = 200; i <= 400; i++)
+    for (i = 201; i <= 400; i++)
         printf("%d\n", i);
 }
 void *threadThree(void *p)
 {
     int i;
-    for (i = 400; i <= 600; i++)
+    for (i = 401; i <= 600; i++)
         printf("%d\n", i);
 }
 void *threadFour(void *p)
 {
     int i;
-    for (i = 600; i <= 800; i++)
+    for (i = 601; i <= 800; i++)
         printf("%d\n", i);
 }
 void *threadFive(void *p)
 {
     int i;
-    for (i = 800; i <= 1000; i++)
+    for (i = 801; i <= 1000; i++)
         printf("%d\n", i);
 }
 

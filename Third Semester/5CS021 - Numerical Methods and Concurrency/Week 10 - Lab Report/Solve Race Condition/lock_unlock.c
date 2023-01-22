@@ -7,9 +7,8 @@ void *fun(void *arg)
 {
     pthread_mutex_lock(&mutex);
     count++;
-    int i;
     printf("Thread%d has started\n", count);
-    for (i = 1; i <= 1000000; i++)
+    for (int i = 1; i <= 1000000; i++)
     {
     }
     printf("Thread %d has finished\n", count);
