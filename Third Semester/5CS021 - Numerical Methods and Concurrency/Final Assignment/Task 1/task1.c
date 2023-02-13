@@ -1,89 +1,58 @@
 #include <stdio.h>
 #include <math.h>
 
+void read_data(FILE *fptr, float *sum_X, float *sum_Y, float *sum_XY, float *sum_Xsq, int *n);
+
 int main()
 {
-	// opening file in read mode using FILE type pointer
-	FILE *fptr = fopen("datasetLR1.txt", "r");
-	FILE *fptr1 = fopen("datasetLR2.txt", "r");
-	FILE *fptr2 = fopen("datasetLR3.txt", "r");
-	FILE *fptr3 = fopen("datasetLR4.txt", "r");
+    FILE *fptr[4];
+    fptr[0] = fopen("datasetLR1.txt", "r");
+    fptr[1] = fopen("datasetLR2.txt", "r");
+    fptr[2] = fopen("datasetLR3.txt", "r");
+    fptr[3] = fopen("datasetLR4.txt", "r");
 
-	int x, y; // variables to store dependent and independent variable
-	// variables initialization for calculations
-	int n = 0;
-	float sum_X = 0;
-	float sum_Y = 0;
-	float sum_XY = 0;
-	float sum_Xsq = 0;
-	float calc_A, calc_B, y_Pred, user_x;
+    int n = 0;
+    float sum_X = 0;
+    float sum_Y = 0;
+    float sum_XY = 0;
+    float sum_Xsq = 0;
+    float calc_A, calc_B, y_Pred, user_x;
 
-	// check data until end of file is found in the first file
-	while (fscanf(fptr, "%d, %d", &x, &y) != EOF)
-	{
-		sum_X += x;
-		sum_Y += y;
-		sum_Xsq += pow(x, 2);
-		sum_XY += (x * y);
-		n++;
-	}
-	// check data until end of file is found in the second file
-	while (fscanf(fptr1, "%d, %d", &x, &y) != EOF)
-	{
-		sum_X += x;
-		sum_Y += y;
-		sum_Xsq += pow(x, 2);
-		sum_XY += (x * y);
-		n++;
-	}
-	// check data until end of file is found in the third file
-	while (fscanf(fptr2, "%d, %d", &x, &y) != EOF)
-	{
-		sum_X += x;
-		sum_Y += y;
-		sum_Xsq += pow(x, 2);
-		sum_XY += (x * y);
-		n++;
-	}
-	// check data until end of file is found in the fourth file
-	while (fscanf(fptr3, "%d, %d", &x, &y) != EOF)
-	{
-		sum_X += x;
-		sum_Y += y;
-		sum_Xsq += pow(x, 2);
-		sum_XY += (x * y);
-		n++;
-	}
+    for (int i = 0; i < 4; i++)
+        read_data(fptr[i], &sum_X, &sum_Y, &sum_XY, &sum_Xsq, &n);
 
-	// calculate A and B using linear regression formula
-	calc_A = ((sum_Y * sum_Xsq) - (sum_X * sum_XY)) / ((n * sum_Xsq) - pow(sum_X, 2));
-	calc_B = ((n * sum_XY) - (sum_X * sum_Y)) / ((n * sum_Xsq) - pow(sum_X, 2));
+    calc_A = ((sum_Y * sum_Xsq) - (sum_X * sum_XY)) / ((n * sum_Xsq) - pow(sum_X, 2));
+    calc_B = ((n * sum_XY) - (sum_X * sum_Y)) / ((n * sum_Xsq) - pow(sum_X, 2));
 
-	// prints the value of A and B
-	printf("A = %0.2f", calc_A);
-	printf("\nB = %0.2f", calc_B);
+    printf("A = %0.2f\n", calc_A);
+    printf("B = %0.2f\n", calc_B);
 
-	// prints the linear equation obtained from the above calculation
-	printf("\nThe linear equation obtained from the given calculation is : %0.2fx + %0.2f\n", calc_A, calc_B);
+    printf("The linear equation obtained from the given calculation is : %0.2fx + %0.2f\n", calc_A, calc_B);
 
-	// asks user for the value of x to predict y variable
-	printf("\n x coordinate to predict y is : ");
-	scanf("%f", &user_x);
+    printf("\nEnter x coordinate to predict y: ");
+    scanf("%f", &user_x);
 
-	// calculation to predict y variable
-	y_Pred = calc_B * user_x + calc_A;
+    y_Pred = calc_B * user_x + calc_A;
 
-	// prints the value of x
-	printf("The value of x = %0.2f", user_x);
+    printf("The value of x = %0.2f", user_x);
 
-	// prints the predicted value
-	printf("\nThe predicted result is y = %0.2f", y_Pred);
+    printf("\nThe predicted result is y = %0.2f\n", y_Pred);
 
-	// close the opened files
-	fclose(fptr);
-	fclose(fptr1);
-	fclose(fptr2);
-	fclose(fptr3);
+    for (int i = 0; i < 4; i++)
+        fclose(fptr[i]);
 
-	return 0;
+    return 0;
+}
+
+void read_data(FILE *fptr, float *sum_X, float *sum_Y, float *sum_XY, float *sum_Xsq, int *n)
+{
+    int x, y;
+    while (fscanf(fptr, "%d, %d", &x, &y) != EOF)
+    {
+        (*sum_X) += x;
+        (*sum_Y) += y;
+        (*sum_Xsq) += pow(x, 2);
+        (*sum_XY) += (x * y);
+        (*n)++;
+    }
 }
