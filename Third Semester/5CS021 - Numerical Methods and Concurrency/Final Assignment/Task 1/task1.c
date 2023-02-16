@@ -27,7 +27,7 @@ int main()
     printf("A = %0.2f\n", calc_A);
     printf("B = %0.2f\n", calc_B);
 
-    printf("The linear equation obtained from the given calculation is : %0.2fx + %0.2f\n", calc_A, calc_B);
+    printf("The linear equation obtained from the given calculation is : %0.2fx + %0.2f\n", calc_B,calc_A);
 
     printf("\nEnter x coordinate to predict y: ");
     scanf("%f", &user_x);
